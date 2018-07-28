@@ -1,0 +1,175 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400 !important;
+}
+
+.border-left-right {
+    // z-index: 99;
+    border-left: 1px solid $oc-gray-1 !important;
+    border-right: 1px solid $oc-gray-1 !important;
+}
+
+.sidebar {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+
+  // position: fixed;
+
+  & .list-group {
+    position: fixed;
+    // width: 23vw;
+  }
+
+  & .list-group-item {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0 !important;
+    font-size: 0.95rem;
+    // border-color: $oc-gray-4;
+  }
+
+  & .list-group-item{
+    border-radius: 0 !important;
+    font-weight: normal !important;
+    padding-left: 0.95rem !important;
+    // border-color: $oc-gray-4;
+  }
+}
+
+.rb-sidebar__2 {
+	
+	& .list-group-item {
+		color: $oc-gray-2 !important;
+	}
+}
+.sidebar-wrapper {
+  background-color: $oc-gray-1;
+}
+
+.sidebar__link__light {
+  color: $oc-white !important;
+
+  &:hover {
+    // color: $secondary !important;
+    // color: $oc-gray-2 !important;
+  }
+}
+
+
+.row {
+  margin: auto !important;
+}
+
+.active {
+  background-color: transparent !important;
+	box-shadow: inset 5px 0 $oc-white;
+  color: $secondary !important;
+  font-weight: bold;
+
+  & * {
+    color: $oc-white !important;
+  }
+}
+
+.rb-sidebar__2 .active {
+	box-shadow: inset 5px 0 $primary;
+	color: $oc-gray-2 !important;
+}
+
+.rp-navbar__top {
+  background-color: $oc-white;
+}
+
+// bootstrap navbar-light class is not working, overwriting classes to fix this
+//TODO fix this issue
+
+.navbar-light .navbar-toggler {
+	border-color: rgba(0,0,0,.5);
+}
+
+.navbar-light .navbar-toggler-icon {
+ 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0,0,0,.5);
+	
+	&:hover {
+		color: $oc-black;
+	}
+}
+
+.rb-sidebar__1 {
+  background-color: $primary;
+}
+
+.rb-sidebar__2 {
+  background-color: $oc-white;
+}
+
+.rb-contain {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.max-width-150 {
+  max-width: 150px;
+}
+
+.padding-top-35 {
+  padding-top: 35px !important;
+}
+
+.padding-top-18 {
+  padding-top: 18px;
+}
+
+.align-horizontally {
+  display: flex;
+  align-items: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+
+.hidden-sm {
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
+.sidebar-fill {
+  width: 12.45%;
+}
+
+.list-group-item:focus, .list-group-item:hover {
+  // background-color: $oc-gray-1 !important;
+	box-shadow: inset 5px 0 $oc-white;
+}
+
+.rb-sidebar__2 .list-group-item:focus, .rb-sidebar__2 .list-group-item:hover {
+  // background-color: $oc-gray-1 !important;
+	box-shadow: inset 5px 0 $primary;
+}
+.sidebar .list-group-item {
+  width: 74.6%;
+}
+
+.rb-sidebar__2 .list-group-item {
+  width: 100%;
+}
+
+.bg-box {
+  background-color: #f1f3f5 !important;
+}
+
+.b-border {
+  border-bottom: 2px solid lightgrey !important;
+}

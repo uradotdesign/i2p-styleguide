@@ -1,0 +1,229 @@
+.navbar {
+  // background-color: $oc-white !important;
+}
+
+.background-primary {
+  background-color: $primary;
+}
+
+.background-secondary {
+  background-color: $secondary;
+}
+
+.background-warning {
+  background-color: $warning;
+}
+
+.background-danger {
+  background-color: $danger;
+}
+
+
+.background-gray-1 {
+  background-color: $oc-gray-1;
+}
+
+.background-gray-2 {
+  background-color: $oc-gray-2;
+}
+
+.background-black {
+  background-color: $oc-black;
+}
+
+.color-primary {
+  color: $primary
+}
+
+.color-secondary {
+  color: $secondary;
+}
+
+.color-gray-2 {
+  color: $oc-gray-1;
+}
+
+.rb-code {
+  font-family: 'Source Code', monospace !important;
+}
+
+.rb-isBold {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border-color: transparent !important;
+  padding: 1rem 1.5rem !important;
+  font-size: 1rem;
+  &:hover {
+    background-color: $secondary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-small {
+  background-color: $primary !important;
+  border-color: transparent !important;
+  padding: .08rem .4rem 0 !important;
+  font-size: .8rem;
+  color: $oc-white;
+  &:hover {
+    background-color: $secondary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-medium {
+  background-color: $primary !important;
+  border-color: transparent !important;
+  padding: .5rem 1rem !important;
+  font-size: 1rem !important;
+  color: $oc-white;
+  &:hover {
+    background-color: $secondary !important;
+    border-color: transparent !important;
+    color: $oc-white;
+  }
+}
+
+.btn-large {
+  border-radius: .3rem;
+  background-color: $primary !important;
+  border-color: transparent !important;
+	border-radius: 2em;
+  padding: .5rem 1rem !important;
+  font-size: 1.25rem !important;
+  line-height: 1.5;
+  color: $oc-white;
+  &:hover {
+    background-color: $secondary !important;
+    border-color: transparent !important;
+    color: $oc-white;
+  }
+
+}
+.btn-outline-medium {
+  border-color: $primary !important;
+  color: $primary !important;
+  padding: .5rem 1rem !important;
+  font-size: 1rem !important;
+  background-color: transparent !important;
+
+  &:hover {
+    color: white !important;
+    background-color: $primary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-outline-small {
+  border-color: $primary !important;
+  color: $primary !important;
+  padding: .08rem .4rem 0 !important;
+  font-size: .8rem;
+  background-color: transparent !important;
+
+  &:hover {
+    color: white !important;
+    background-color: $primary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-outline-primary {
+  border-color: $primary !important;
+  color: $primary !important;
+  padding: 1rem 1.5rem !important;
+  font-size: 1rem;
+
+  &:hover {
+    color: white !important;
+    background-color: $primary !important;
+    border-color: transparent !important;
+  }
+}
+
+.btn-link {
+  color: $primary !important;
+
+  &:hover {
+    color: $secondary !important;
+  }
+}
+
+.btn-scroller {
+  border-radius: .25rem;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition-duration: .1s;
+  -o-transition-duration: .1s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  -webkit-transition-property: background-color,color,border-color;
+  -o-transition-property: background-color,color,border-color;
+  padding: .5rem 1rem;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+  transition-property: background-color,color,border-color;
+  color: #00000b;
+  background-color: #dddde0;
+  border: 0;
+}
+
+.btn-scroller:active, .btn-scroller:focus, .btn-scroller:hover {
+  color: #00000b;
+  background-color: #aaaab0;
+}
+
+.btn-pill {
+	border-radius: 300px; //make it huge so  itis alwas in pill shape
+}
+
+.faq__chevron-up {
+  height: .8em;
+  vertical-align: -.06em;
+  fill: currentColor;
+  margin-left: .5em;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.badge-primary {
+  background-color: $primary !important;
+}
+
+.badge-secondary {
+  background-color: $secondary !important;
+}
+
+.rb-link {
+  color: $primary !important;
+  &:hover {
+    color: $secondary !important;
+  }
+}
+
+.rb-paginate-active {
+  background-color: $primary !important;
+  color: white !important;
+
+  &:hover {
+    background-color: $secondary !important;
+  }
+}
+ 
+.pagination .page-link {
+	color: $oc-gray-2;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: $oc-gray-1 !important;
+}
+
+.mark, mark {
+  background-color: $oc-gray-1 !important;
+  padding: .2em !important;
+}

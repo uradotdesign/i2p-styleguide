@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'),
+        url('SourceCodePro-Bold.ttf'), url('../fonts/SourceCodePro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro SemiBold'), local('SourceCodePro-SemiBold'),
+        url('SourceCodePro-SemiBold.ttf'), url('../fonts/SourceCodePro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'),
+        url('SourceCodePro-Regular.ttf'), url('../fonts/SourceCodePro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

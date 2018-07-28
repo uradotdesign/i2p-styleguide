@@ -1,0 +1,61 @@
+p {
+	color: $oc-gray-2;
+}
+
+.color {
+  height: 100px;
+}
+
+.grid {
+  height: 100px;
+  background-color: $primary;
+  border-radius: 7px;
+
+  & span {
+    margin: 10px 10px 10px 10px;
+    color: white;
+  }
+}
+
+.header-display {
+	&::before {
+		background: $secondary;
+		content: " ";
+		display: inline-block;
+		width: 7px;
+	}
+}
+
+h1.header-display {
+	&::before {
+		height: 3.75rem; // 150% of text-size
+		transform: translate(-15px, 0.9375rem); // 25% of height
+	}
+}
+
+h2.header-display {
+	&::before {
+		height: 3rem;
+		transform: translate(-15px, 0.75rem);
+	}
+}
+
+h3.header-display {
+	&::before {
+		height: 2.625rem;
+		transform: translate(-15px, 0.65625rem);
+	}
+}
+
+h4.header-display {
+	&::before {
+		height: 2.25rem;
+		transform: translate(-15px, 0.5625rem);
+	}
+}
+
+.icon {
+  font-size: 20px;
+  background-color: $oc-gray-2;
+  padding: 20px;
+}

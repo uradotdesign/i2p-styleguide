@@ -1,0 +1,5 @@
+# automatically generated with jekyll serve
+_site/
+
+# vim sessions
+*.ses
