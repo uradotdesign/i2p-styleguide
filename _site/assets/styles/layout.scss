@@ -34,7 +34,7 @@
 .rb-sidebar__2 {
 	
 	& .list-group-item {
-		color: $oc-white !important;
+		color: $oc-gray-2 !important;
 	}
 }
 .sidebar-wrapper {
@@ -67,8 +67,8 @@
 }
 
 .rb-sidebar__2 .active {
-	box-shadow: inset 5px 0 $oc-white;
-	color: $oc-white !important;
+	box-shadow: inset 5px 0 $primary;
+	color: $primary !important;
 }
 
 .rp-navbar__top {
@@ -99,7 +99,7 @@
 }
 
 .rb-sidebar__2 {
-  background-color: $oc-gray-1;
+  background-color: $oc-white;
 }
 
 .rb-contain {
@@ -151,7 +151,7 @@
 
 .rb-sidebar__2 .list-group-item:focus, .rb-sidebar__2 .list-group-item:hover {
   // background-color: $oc-gray-1 !important;
-	box-shadow: inset 5px 0 $oc-white;
+	box-shadow: inset 5px 0 $primary;
 }
 .sidebar .list-group-item {
   width: 74.6%;
