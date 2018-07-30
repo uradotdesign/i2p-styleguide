@@ -4,10 +4,9 @@
 
 .sidebar { min-height: 100vh; height: 100%; width: 100%; }
 .sidebar .list-group { position: fixed; }
-.sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; font-size: 0.95rem; }
-.sidebar .list-group-item { border-radius: 0 !important; font-weight: normal !important; padding-left: 0.95rem !important; }
+.sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; font-size: 1.1rem; font-weight: 600 !important; padding-left: 1.1rem !important; }
 
-.rb-sidebar__2 .list-group-item { color: #181818 !important; }
+.rb-sidebar__2 .list-group-item { color: #ffffff !important; }
 
 .sidebar-wrapper { background-color: #adb5bd; }
 
@@ -18,7 +17,7 @@
 .active { background-color: transparent !important; box-shadow: inset 5px 0 #ffffff; color: #60AB60 !important; font-weight: bold; }
 .active * { color: #ffffff !important; }
 
-.rb-sidebar__2 .active { box-shadow: inset 5px 0 #4661A9; color: #181818 !important; }
+.rb-sidebar__2 .active { box-shadow: inset 5px 0 #ffffff; color: #ffffff !important; }
 
 .rp-navbar__top { background-color: #ffffff; }
 
@@ -31,7 +30,7 @@
 
 .rb-sidebar__1 { background-color: #4661A9; }
 
-.rb-sidebar__2 { background-color: #ffffff; }
+.rb-sidebar__2 { background-color: #adb5bd; }
 
 .rb-contain { width: 100%; height: auto; max-height: 100%; }
 
@@ -52,7 +51,7 @@
 
 .list-group-item:focus, .list-group-item:hover { box-shadow: inset 5px 0 #ffffff; }
 
-.rb-sidebar__2 .list-group-item:focus, .rb-sidebar__2 .list-group-item:hover { box-shadow: inset 5px 0 #4661A9; }
+.rb-sidebar__2 .list-group-item:focus, .rb-sidebar__2 .list-group-item:hover { box-shadow: inset 5px 0 #ffffff; }
 
 .sidebar .list-group-item { width: 74.6%; }
 
@@ -101,7 +100,7 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625r
 
 .color-gray-2 { color: #adb5bd; }
 
-.rb-code { font-family: 'Source Code', monospace !important; }
+.rb-code { font-family: 'Source Code Pro', monospace !important; }
 
 .rb-isBold { font-weight: bold; }
 
@@ -157,6 +156,6 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625r
 @media (max-width: 992px) { .display-md { display: none !important; } }
 .display-md { display: unset; }
 
-body { font-family: "Source Sans", sans-serif !important; }
+body { font-family: "Source Sans Pro", sans-serif !important; font-size: 1.2rem; }
 
 a { text-decoration: none !important; }
