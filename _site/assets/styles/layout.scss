@@ -4,8 +4,8 @@
 
 .border-left-right {
     // z-index: 99;
-    border-left: 1px solid $oc-gray-1 !important;
-    border-right: 1px solid $oc-gray-1 !important;
+    border-left: 1px solid $oc-gray-3 !important;
+    border-right: 1px solid $oc-gray-3 !important;
 }
 
 .sidebar {
@@ -34,11 +34,11 @@
 .rb-sidebar__2 {
 	
 	& .list-group-item {
-		color: $oc-gray-2 !important;
+		color: $oc-gray-9 !important;
 	}
 }
 .sidebar-wrapper {
-  background-color: $oc-gray-1;
+  background-color: $oc-gray-3;
 }
 
 .sidebar__link__light {
@@ -46,7 +46,7 @@
 
   &:hover {
     // color: $secondary !important;
-    // color: $oc-gray-2 !important;
+    // color: $oc-gray-9 !important;
   }
 }
 
@@ -145,12 +145,12 @@
 }
 
 .list-group-item:focus, .list-group-item:hover {
-  // background-color: $oc-gray-1 !important;
+  // background-color: $oc-gray-3 !important;
 	box-shadow: inset 5px 0 $oc-white;
 }
 
 .rb-sidebar__2 .list-group-item:focus, .rb-sidebar__2 .list-group-item:hover {
-  // background-color: $oc-gray-1 !important;
+  // background-color: $oc-gray-3 !important;
 	box-shadow: inset 5px 0 $primary;
 }
 .sidebar .list-group-item {
