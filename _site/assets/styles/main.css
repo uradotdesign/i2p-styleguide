@@ -120,6 +120,11 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625r
 
 .rb-isBold { font-weight: bold; }
 
+/*
+	Overwriting the default size for btn-lg and btn-md
+*/
+.btn-lg, .btn-md { line-height: 1em; }
+
 .btn-primary { background-color: #4661A9 !important; border-color: transparent !important; padding: 1rem 1.5rem !important; font-size: 1rem; }
 .btn-primary:hover { background-color: #60AB60 !important; border-color: transparent !important; }
 
