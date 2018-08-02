@@ -123,7 +123,7 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625r
 /*
 	Overwriting the default size for btn-lg and btn-md
 */
-.btn-lg, .btn-md { line-height: 1em; }
+.btn-primary, .btn-outline-primary, .btn-lg, .btn-large, .btn-outline-large, .btn-md, .btn-medium, .btn-outline-medium { line-height: 1em; }
 
 .btn-primary { background-color: #4661A9 !important; border-color: transparent !important; padding: 1rem 1.5rem !important; font-size: 1rem; }
 .btn-primary:hover { background-color: #60AB60 !important; border-color: transparent !important; }
@@ -134,7 +134,7 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625r
 .btn-medium { background-color: #4661A9 !important; border-color: transparent !important; padding: .5rem 1rem !important; font-size: 1rem !important; color: #ffffff; }
 .btn-medium:hover { background-color: #60AB60 !important; border-color: transparent !important; color: #ffffff; }
 
-.btn-large { border-radius: .3rem; background-color: #4661A9 !important; border-color: transparent !important; border-radius: 2em; padding: .5rem 1rem !important; font-size: 1.25rem !important; line-height: 1.5; color: #ffffff; }
+.btn-large { border-radius: .3rem; background-color: #4661A9 !important; border-color: transparent !important; border-radius: 2em; padding: .5rem 1rem !important; font-size: 1.25rem !important; color: #ffffff; }
 .btn-large:hover { background-color: #60AB60 !important; border-color: transparent !important; color: #ffffff; }
 
 .btn-outline-medium { border-color: #4661A9 !important; color: #4661A9 !important; padding: .5rem 1rem !important; font-size: 1rem !important; background-color: transparent !important; }

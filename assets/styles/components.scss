@@ -87,7 +87,14 @@
 	Overwriting the default size for btn-lg and btn-md
 */
 
-.btn-lg, .btn-md {
+.btn-primary,
+.btn-outline-primary,
+.btn-lg,
+.btn-large,
+.btn-outline-large,
+.btn-md,
+.btn-medium, 
+.btn-outline-medium {
 	line-height: 1em;
 }
 
@@ -135,7 +142,6 @@
 	border-radius: 2em;
   padding: .5rem 1rem !important;
   font-size: 1.25rem !important;
-  line-height: 1.5;
   color: $oc-white;
   &:hover {
     background-color: $secondary !important;
