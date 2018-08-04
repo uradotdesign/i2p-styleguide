@@ -7,6 +7,7 @@
   - buttons: Buttons
   - badges: Badges
   - forms: Forms
+  - header: Header
   - tables: Tables
   - cards: Cards
   - scrollspy: Scrollspy

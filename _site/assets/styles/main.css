@@ -161,6 +161,12 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625r
 
 .badge-secondary { background-color: #60AB60 !important; }
 
+#styleguide-nav { background-color: #ffffff !important; }
+#styleguide-nav .nav-item:hover { box-shadow: inset 0 -5px #4661A9; }
+#styleguide-nav .nav-item:hover .nav-link { color: #4661A9; }
+#styleguide-nav .nav-link { color: #212529; }
+#styleguide-nav .show .nav-item:hover { box-shadow: 0 0; }
+
 .rb-link { color: #4661A9 !important; }
 .rb-link:hover { color: #60AB60 !important; }
 

@@ -1,7 +1,3 @@
-.navbar {
-  // background-color: $oc-white !important;
-}
-
 .background-primary {
   background-color: $primary;
 }
@@ -244,6 +240,26 @@
 
 .badge-secondary {
   background-color: $secondary !important;
+}
+
+#styleguide-nav {
+  background-color: $oc-white !important;
+	.nav-item:hover {
+		box-shadow: inset 0 -5px $primary;
+
+		& .nav-link {
+			color: $primary;
+		}
+	}
+	.nav-link {
+		color: $oc-gray-9;
+	}
+
+	.show {
+		.nav-item:hover {
+			box-shadow: 0 0;
+		}
+	}
 }
 
 .rb-link {
