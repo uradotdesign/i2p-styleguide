@@ -138,7 +138,7 @@
 }
 
 .color-gray-9 {
-  color: $oc-gray-3;
+  color: $oc-gray-9;
 }
 
 .rb-code {
@@ -290,7 +290,7 @@
 }
 
 .btn-pill {
-	border-radius: 300px; //make it huge so  itis alwas in pill shape
+	border-radius: 30px;
 }
 
 .faq__chevron-up {
@@ -312,6 +312,48 @@
   background-color: $secondary !important;
 }
 
+.footer {
+	ul {
+		list-style: none;
+		font-weight: 600;
+		text-transform: capitalize;
+		span {
+			display: block;
+			margin-bottom: 0.5em;
+		}
+		a {
+			color: rgba(255,255,255,0.5);
+			font-weight: 400;
+
+			&:hover {
+				color: $oc-white;
+			}
+		}
+	}
+	&__social-media {
+		display: flex;
+		&-icon {
+			content: " ";
+			width: 75px;
+			height: 75px;
+			margin-right: 1rem;
+			background-color: rgba(255,255,255,0.5);
+			border-radius: 75px;
+		}
+	}
+
+	&-extras{
+		ul {
+			li {
+				margin: 0 0.5rem;
+			}
+		}
+	}
+	.spacer {
+		content: " ";
+		height: 2rem;
+	}
+}
 #styleguide-nav {
   background-color: $oc-white !important;
 	.nav-item:hover {

@@ -8,6 +8,7 @@
   - badges: Badges
   - buttons: Buttons
   - cards: Cards
+  - footer: Footer
   - forms: Forms
   - header: Header
   - pagination: Pagination
