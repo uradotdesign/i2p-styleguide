@@ -75,14 +75,26 @@
   <ul class="p-0 list-group pt-3 sidebar-fill">
     
       
-        <a href="#buttons"><li class="list-group-item rb-sidebar">
-          Buttons
+        <a href="#alerts"><li class="list-group-item rb-sidebar">
+          Alerts
         </li></a>
       
     
       
         <a href="#badges"><li class="list-group-item rb-sidebar">
           Badges
+        </li></a>
+      
+    
+      
+        <a href="#buttons"><li class="list-group-item rb-sidebar">
+          Buttons
+        </li></a>
+      
+    
+      
+        <a href="#cards"><li class="list-group-item rb-sidebar">
+          Cards
         </li></a>
       
     
@@ -99,20 +111,20 @@
       
     
       
-        <a href="#tables"><li class="list-group-item rb-sidebar">
-          Tables
-        </li></a>
-      
-    
-      
-        <a href="#cards"><li class="list-group-item rb-sidebar">
-          Cards
+        <a href="#pagination"><li class="list-group-item rb-sidebar">
+          Pagination
         </li></a>
       
     
       
         <a href="#scrollspy"><li class="list-group-item rb-sidebar">
           Scrollspy
+        </li></a>
+      
+    
+      
+        <a href="#tables"><li class="list-group-item rb-sidebar">
+          Tables
         </li></a>
       
     
@@ -125,6 +137,55 @@
     <div class="col-md-9 col-xl-7 col-sm-12 col-xs-12 pt-3 pl-5">
         <!--<p>This is the components page</p>
 -->
+			<div class="component-wrapper my-5" id="">
+        <div class="page-header mb-4">
+    <h2 id="alerts">Alerts</h2>
+    <p class="text-muted">Some Description about alerts.</p>
+</div>
+<div class="row p-5 bg-light">
+    <div class="col-12 alert alert-primary" role="alert">
+        <p class="mb-0">This is a primary alert — check it out!</p>
+    </div>
+    <div class="col-12 alert alert-secondary" role="alert">
+        <p class="mb-0">This is a default alert — check it out!</p>
+    </div>
+    <div class="col-12 alert alert-success" role="alert">
+        <p class="mb-0">This is a success alert — check it out!</p>
+    </div>
+    <div class="col-12 alert alert-warning" role="alert">
+        <p class="mb-0">This is a warning alert — check it out!</p>
+    </div>
+    <div class="col-12 alert alert-danger" role="alert">
+        <p class="mb-0">This is a danger alert — check it out!</p>
+    </div>
+    <div class="col-12 alert alert-success" role="alert">
+				<h4 class="alert-header">Well done!!</h4>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+				<hr>
+				<p class="mb-0">Also some extra text and a <a href="#alerts" class="alert-link">link</a>.</p>
+    </div>
+</div>
+
+			</div>
+			<div class="component-wrapper my-5" id="">
+        <div class="page-header mb-4">
+    <h2 id="badges">Badges</h2>
+    <!--p class="text-muted">Some Description about badges.</p-->
+</div>
+<div class="row p-5 bg-light">
+    <div class="col-12">
+        <h2>Example heading <span class="badge badge-primary">New</span></h2>
+    </div>
+    <div class="col-12">
+        <h4 class="pt-4">Example heading <span class="badge badge-secondary">New</span></h4>
+    </div>
+    <div class="col-12">
+        <h6 class="pt-4">Example heading <span class="badge-pill badge-primary">New</span></h6>
+    </div>
+</div>
+
+			</div>
+			<div class="component-wrapper my-5" id="">
         <div id="buttons" class="mb-4">
     <h2>Buttons</h2>
     <!--p class="text-muted">Some Description about buttons.</p-->
@@ -152,154 +213,9 @@
     </div>
 </div>
 
-        <div class="page-header mb-4 mt-5">
-    <h2 id="badges">Badges</h2>
-    <!--p class="text-muted">Some Description about badges.</p-->
-</div>
-<div class="row p-5 bg-light">
-    <div class="col-12">
-        <h2>Example heading <span class="badge badge-primary">New</span></h2>
-    </div>
-    <div class="col-12">
-        <h4 class="pt-4">Example heading <span class="badge badge-secondary">New</span></h4>
-    </div>
-    <div class="col-12">
-        <h6 class="pt-4">Example heading <span class="badge-pill badge-primary">New</span></h6>
-    </div>
-</div>
-
-        <h1 id="forms"> </h1>
-<div class="page-header mb-4 mt-5">
-    <h2>Forms</h2>
-    <!--p class="text-muted">Some Description about Forms.</p-->
-</div>
-<div class="row">
-    <form class="bg-light p-5 col-sm-6">
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-check">
-						<input type="checkbox" class="form-check-input" id="check_me_out">
-            <label for="check_me_out" class="form-check-label ml-2 mt-1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-medium btn-pill mt-4" onclick="return false;">Submit</button>
-    </form>
-</div>
-
-        <div id="header" class="mb-4 mt-5">
-    <h2>Header</h2>
-    <!--p class="text-muted">Some Description about buttons.</p-->
-</div>
-<div class="bg-light p-5" id="">
-<nav class="navbar navbar-expand-lg navbar-light border-bottom align-items-end pb-0" id="styleguide-nav" "style=background: $oc-white">
-  <a class="navbar-brand mr-5" href="https://geti2p.net/">
-    <img src="/i2p-styleguide/assets/images/horizontal_color.png" class="my-2" height="40" width="auto" alt=""></img>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#SGnavSupportedContent" aria-controls="SGnavSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="SGnavSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item pb-2">
-        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">Blog</a>
-      </li>
-      <li class="nav-item pb-2">
-        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">Getting started</a>
-      </li>
-      <li class="nav-item pb-2">
-        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">Docs & data</a>
-      </li>
-      <li class="nav-item pb-2">
-        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">Contribute</a>
-      </li>
-      <li class="nav-item pb-2">
-        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">About us</a>
-      </li>
-		</ul>
-	</div>
-</nav>
-</div>
-
-        <div class="mt-5" id="tables">
-    <h2>Tables</h2>
-    <div class="row mt-5">
-        <span>Default</span>
-        <br />
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="row mt-5">
-        <span>Striped</span>
-        <br />
-        <table class="table table-striped">
-            <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-
-        <div class="mt-5" id="cards">
+			</div>
+			<div class="component-wrapper my-5" id="">
+        <div class="mb-4" id="cards">
     <h2>Cards</h2>
     <div class="row bg-light p-md-5 p-sm-3 pt-5 pb-5">
         <div class="col-md-6 col-sm-12 col-xs-12">
@@ -354,8 +270,71 @@
     </div>
 </div>
 
-        <h1 id="pagination"></h1>
-<div class="page-header mb-4 mt-5">
+			</div>
+			<div class="component-wrapper my-5" id="">
+        <div class="page-header mb-4" id="forms">
+    <h2>Forms</h2>
+    <!--p class="text-muted">Some Description about Forms.</p-->
+</div>
+<div class="row">
+    <form class="bg-light p-5 col-sm-6">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+						<input type="checkbox" class="form-check-input" id="check_me_out">
+            <label for="check_me_out" class="form-check-label ml-2 mt-1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-medium btn-pill mt-4" onclick="return false;">Submit</button>
+    </form>
+</div>
+
+			</div>
+			<div class="component-wrapper my-5" id="">
+        <div id="header" class="mb-4">
+    <h2>Header</h2>
+    <!--p class="text-muted">Some Description about buttons.</p-->
+</div>
+<div class="bg-light p-5" id="">
+<nav class="navbar navbar-expand-lg navbar-light border-bottom align-items-end pb-0" id="styleguide-nav" "style=background: $oc-white">
+  <a class="navbar-brand mr-5" href="https://geti2p.net/">
+    <img src="/i2p-styleguide/assets/images/horizontal_color.png" class="my-2" height="40" width="auto" alt=""></img>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#SGnavSupportedContent" aria-controls="SGnavSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="SGnavSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item pb-2">
+        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">Blog</a>
+      </li>
+      <li class="nav-item pb-2">
+        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">Getting started</a>
+      </li>
+      <li class="nav-item pb-2">
+        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">Docs & data</a>
+      </li>
+      <li class="nav-item pb-2">
+        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">Contribute</a>
+      </li>
+      <li class="nav-item pb-2">
+        <a class="nav-link mx-1 text-capitalize font-weight-bold" href="#">About us</a>
+      </li>
+		</ul>
+	</div>
+</nav>
+</div>
+
+			</div>
+			<div class="component-wrapper my-5" id="">
+        <div class="page-header mb-4 " id="pagination">
     <h2>Pagination</h2>
     <!--p class="text-muted">Some Description about pagination.</p-->
 </div>
@@ -379,25 +358,8 @@
     </nav>
 </div>
 
-        <div class="page-header mb-4 mt-5">
-    <h2 id="alerts">Alerts</h2>
-    <p class="text-muted">Some Description about alerts.</p>
-</div>
-<div class="row p-5 bg-light">
-    <div class="col-12 alert alert-primary" role="alert">
-        This is a primary alert—check it out!
-    </div>
-    <div class="col-12 alert alert-success" role="alert">
-        This is a success alert—check it out!
-    </div>
-    <div class="col-12 alert alert-danger" role="alert">
-        This is a danger alert—check it out!
-    </div>
-    <div class="col-12 alert alert-warning" role="alert">
-        This is a warning alert—check it out!
-    </div>
-</div>
-
+			</div>
+			<div class="component-wrapper my-5" id="">
         <h1 id="scrollspy"> </h1>
 <div class="page-header mb-4 mt-5 d-none d-sm-none">
     <h3>Scrollspy</h3>
@@ -433,6 +395,79 @@
     </div>
 </div>
 
+			</div>
+			<div class="component-wrapper my-5" id="">
+        <div class="page-header mb-4" id="tables">
+    <h2>Tables</h2>
+</div>
+    <div class="row bg-light p-5">
+        <span>Default</span>
+        <br />
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
+        <span>Striped</span>
+        <br />
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+			</div>
     </div>
 </div>
 <script src="/i2p-styleguide/assets/javascript/modernizr.min.js"></script>

@@ -1,3 +1,73 @@
+.alert {
+	border-radius: 25px;
+
+	&-custom {
+		color: #041f67;
+		background-color: #bbd6ff;
+		border-color: #a4bfff;
+
+		& hr {
+			border-top-color: #7691d9;
+		}
+
+		& .alert-link {
+		color: #000850;
+		}
+	}
+	&-primary {
+		color: #041f67;
+		background-color: #bbd6ff;
+		border-color: #a4bfff;
+
+		& hr {
+			border-top-color: #7691d9;
+		}
+
+		& .alert-link {
+		color: #000850;
+		}
+	}
+	&-success {
+		color: #075207;
+		background-color: #beffbe;
+		border-color: #a7f2a7;
+
+		& hr {
+			border-top-color: #7ac57a;
+		}
+
+		& .alert-link {
+		color: #003b00;
+		}
+	}
+	&-warning {
+		color: #bd8200;
+		background-color: #ffffa9;
+		border-color: #ffff92;
+
+		& hr {
+			border-top-color: #fff464;
+		}
+
+		& .alert-link {
+		color: #a66b00;
+		}
+	}
+	&-danger {
+		color: #9f1405;
+		background-color: #ffcbbc;
+		border-color: #ffb4a5;
+
+		& hr {
+			border-top-color: #ff8677;
+		}
+
+		& .alert-link {
+		color: #880000;
+		}
+	}
+}
+
 .background-primary {
   background-color: $primary;
 }
