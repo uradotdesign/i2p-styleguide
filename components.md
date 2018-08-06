@@ -4,12 +4,16 @@
   permalink: /components/
 
   sidebar:
-  - buttons: Buttons
+  - alerts: Alerts
   - badges: Badges
-  - forms: Forms
-  - tables: Tables
+  - buttons: Buttons
   - cards: Cards
+  - footer: Footer
+  - forms: Forms
+  - header: Header
+  - pagination: Pagination
   - scrollspy: Scrollspy
+  - tables: Tables
 ---
 
 This is the components page
