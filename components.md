@@ -12,7 +12,6 @@
   - forms: Forms
   - header: Header
   - pagination: Pagination
-  - scrollspy: Scrollspy
   - tables: Tables
 ---
 
