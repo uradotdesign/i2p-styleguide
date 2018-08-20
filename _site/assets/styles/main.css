@@ -59,6 +59,9 @@
 
 .bg-box { background-color: #f1f3f5 !important; }
 
+.bg-primary { background-color: #4661A9 !important; }
+.bg-secondary { background-color: #60AB60 !important; }
+
 .b-border { border-bottom: 2px solid lightgrey !important; }
 
 .color { height: 100px; }
@@ -145,6 +148,9 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625r
 
 .btn-primary { background-color: #4661A9 !important; border-color: transparent !important; padding: 1rem 1.5rem !important; font-size: 1rem; }
 .btn-primary:hover { background-color: #60AB60 !important; border-color: transparent !important; }
+
+.btn-white { color: #4661A9 !important; background-color: #ffffff !important; border-color: transparent !important; padding: 1rem 1.5rem !important; font-size: 1rem; }
+.btn-white:hover { color: #ffffff !important; background-color: #60AB60 !important; border-color: transparent !important; }
 
 .btn-small { background-color: #4661A9 !important; border-color: transparent !important; padding: .08rem .4rem 0 !important; font-size: .8rem; color: #ffffff; }
 .btn-small:hover { background-color: #60AB60 !important; border-color: transparent !important; }

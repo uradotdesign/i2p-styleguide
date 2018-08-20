@@ -11,6 +11,7 @@
   - footer: Footer
   - forms: Forms
   - header: Header
+  - jumbotron: Jumbotron
   - pagination: Pagination
   - tables: Tables
 ---
