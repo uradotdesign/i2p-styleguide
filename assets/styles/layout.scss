@@ -165,6 +165,15 @@
   background-color: #f1f3f5 !important;
 }
 
+.bg {
+	&-primary {
+		background-color: $primary !important;
+	}
+	&-secondary {
+		background-color: $secondary !important;
+	}
+}
+
 .b-border {
   border-bottom: 2px solid lightgrey !important;
 }
