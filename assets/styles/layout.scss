@@ -24,7 +24,7 @@
     background-color: transparent;
     border: 0;
     border-radius: 0 !important;
-    font-size: 1.1rem;
+    font-size: 1rem;
      font-weight: 600 !important;
     padding-left: 1.1rem !important;
     // border-color: $oc-gray-4;
@@ -55,10 +55,10 @@
   margin: auto !important;
 }
 
-.active {
-  background-color: transparent !important;
-	box-shadow: inset 5px 0 $oc-white;
-  color: $secondary !important;
+.active,
+.active:hover {
+  background-color: "transparent"!important;
+	border-left: 5px solid $oc-white;
   font-weight: bold;
 
   & * {
@@ -67,19 +67,18 @@
 }
 
 .rb-sidebar__2 .active {
-	box-shadow: inset 5px 0 $primary;
-	color: $primary !important;
+	border-left: 5px solid $primary;
 }
 
 .rp-navbar__top {
-  background-color: $oc-white;
+  background-color: $primary;
 }
 
 // bootstrap navbar-light class is not working, overwriting classes to fix this
 //TODO fix this issue
 
 .navbar-light .navbar-toggler {
-	border-color: rgba(0,0,0,.5);
+	border-color: rgba(255,255,255,.5);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -87,10 +86,10 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: rgba(0,0,0,.5);
+	color: rgba(255,255,255,.5);
 	
 	&:hover {
-		color: $oc-black;
+		color: $oc-white;
 	}
 }
 
@@ -146,15 +145,15 @@
 
 .list-group-item:focus, .list-group-item:hover {
   // background-color: $oc-gray-3 !important;
-	box-shadow: inset 5px 0 $oc-white;
+	border-left: 5px solid $primary;
 }
 
 .rb-sidebar__2 .list-group-item:focus, .rb-sidebar__2 .list-group-item:hover {
   // background-color: $oc-gray-3 !important;
-	box-shadow: inset 5px 0 $primary;
+	border-left: 5px solid $oc-white;
 }
-.sidebar .list-group-item {
-  width: 74.6%;
+.rb-sidebar__2 .active:focus, .rb-sidebar__2 .active:hover {
+	border-left: 5px solid $primary;
 }
 
 .rb-sidebar__2 .list-group-item {
