@@ -190,14 +190,13 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625r
 .footer ul a { color: rgba(255, 255, 255, 0.5); font-weight: 400; }
 .footer ul a:hover { color: #ffffff; }
 .footer__social-media { display: flex; }
-.footer__social-media-icon { content: " "; width: 75px; height: 75px; margin-right: 1rem; background-color: rgba(255, 255, 255, 0.5); border-radius: 75px; }
+.footer__social-media-icon { content: " "; width: 75px; height: 75px; margin-right: 1rem; margin-bottom: 1rem; background-color: rgba(255, 255, 255, 0.5); border-radius: 75px; }
 .footer-extras ul li { margin: 0 0.5rem; }
 .footer .spacer { content: " "; height: 2rem; }
 
-#styleguide-nav { background-color: #f8f9fa !important; }
-#styleguide-nav .nav-item:hover { box-shadow: inset 0 -5px #4661A9; }
-#styleguide-nav .nav-item:hover .nav-link { color: #4661A9; }
-#styleguide-nav .nav-link { color: #212529; }
+#styleguide-nav { background-color: #4661A9 !important; }
+#styleguide-nav .nav-item:hover { box-shadow: inset 0 -5px #ffffff; }
+#styleguide-nav .nav-link { color: #ffffff; }
 #styleguide-nav .show .nav-item:hover { box-shadow: 0 0; }
 
 .rb-link { color: #4661A9 !important; }
