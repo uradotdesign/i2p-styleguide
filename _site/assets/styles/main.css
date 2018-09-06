@@ -184,13 +184,15 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0); mar
 
 .badge-secondary { background-color: #60AB60 !important; }
 
-.footer ul { list-style: none; font-weight: 600; text-transform: capitalize; }
+.footer ul { list-style: none; font-weight: 600; text-transform: capitalize; margin-bottom: 2rem; }
 .footer ul span { display: block; margin-bottom: 0.5em; }
 .footer ul a { color: rgba(255, 255, 255, 0.5); font-weight: 400; }
 .footer ul a:hover { color: #ffffff; }
-.footer__social-media { display: flex; }
-.footer__social-media-icon { content: " "; width: 75px; height: 75px; margin-right: 1rem; margin-bottom: 1rem; background-color: rgba(255, 255, 255, 0.5); border-radius: 75px; }
+.footer__social-media { display: flex; margin-top: 16px !important; }
+.footer__social-media-icon { height: 40px; width: 40px; margin-right: 1rem; margin-bottom: 1rem; color: rgba(255, 255, 255, 0.5); }
+.footer__social-media-icon:hover { color: #ffffff; }
 .footer-extras ul li { margin: 0 0.5rem; }
+.footer-extras__logo img { max-width: 180px; height: auto; }
 .footer .spacer { content: " "; height: 2rem; }
 
 #styleguide-nav { background-color: #4661A9 !important; }
