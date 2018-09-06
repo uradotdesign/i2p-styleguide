@@ -11,7 +11,7 @@
   - footer: Footer
   - forms: Forms
   - header: Header
-  - jumbotron: Jumbotron
+//  - jumbotron: Jumbotron
   - pagination: Pagination
   - tables: Tables
 ---
