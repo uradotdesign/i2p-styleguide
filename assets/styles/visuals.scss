@@ -25,28 +25,32 @@
 h1.header-display {
 	&::before {
 		height: 3.75rem; // 150% of text-size
-		transform: translate(-15px, 0.9375rem); // 25% of height
+		transform: translate(-15px, 0);
+		margin-bottom: -0.937rem; // 25% of height
 	}
 }
 
 h2.header-display {
 	&::before {
 		height: 3rem;
-		transform: translate(-15px, 0.75rem);
+		transform: translate(-15px, 0);
+		margin-bottom: -0.75rem;
 	}
 }
 
 h3.header-display {
 	&::before {
 		height: 2.625rem;
-		transform: translate(-15px, 0.65625rem);
+		transform: translate(-15px, 0);
+		margin-bottom: -0.65625rem;
 	}
 }
 
 h4.header-display {
 	&::before {
 		height: 2.25rem;
-		transform: translate(-15px, 0.5625rem);
+		transform: translate(-15px, 0);
+		margin-bottom: -0.5625rem;
 	}
 }
 
@@ -54,4 +58,11 @@ h4.header-display {
   font-size: 20px;
   background-color: $oc-gray-9;
   padding: 20px;
+}
+
+.typography__headers__item {
+	margin-bottom: 2rem;
+	p {
+		margin-bottom: 0.5rem !important;
+	}
 }

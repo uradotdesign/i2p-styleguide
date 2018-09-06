@@ -67,15 +67,18 @@
 
 .header-display::before { background: #60AB60; content: " "; display: inline-block; width: 7px; }
 
-h1.header-display::before { height: 3.75rem; transform: translate(-15px, 0.9375rem); }
+h1.header-display::before { height: 3.75rem; transform: translate(-15px, 0); margin-bottom: -0.937rem; }
 
-h2.header-display::before { height: 3rem; transform: translate(-15px, 0.75rem); }
+h2.header-display::before { height: 3rem; transform: translate(-15px, 0); margin-bottom: -0.75rem; }
 
-h3.header-display::before { height: 2.625rem; transform: translate(-15px, 0.65625rem); }
+h3.header-display::before { height: 2.625rem; transform: translate(-15px, 0); margin-bottom: -0.65625rem; }
 
-h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0.5625rem); }
+h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0); margin-bottom: -0.5625rem; }
 
 .icon { font-size: 20px; background-color: #212529; padding: 20px; }
+
+.typography__headers__item { margin-bottom: 2rem; }
+.typography__headers__item p { margin-bottom: 0.5rem !important; }
 
 .alert { border-radius: 15px; }
 .alert-custom { color: #3b4f87; background-color: #e2e6f0; border-color: #6679ac; }
