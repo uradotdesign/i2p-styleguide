@@ -46,3 +46,15 @@ $oc-gray-6: map-get($oc-gray-list, "6");
 $oc-gray-7: map-get($oc-gray-list, "7");
 $oc-gray-8: map-get($oc-gray-list, "8");
 $oc-gray-9: map-get($oc-gray-list, "9");
+
+// Mixins
+//
+// .header-display :before size and position
+@mixin headerDisplayBefore($size) {
+	$height: $size * 1.5;
+	$horizontalAlignment: -15px;
+	$verticalAlignment: $height * -0.25;
+	height: $height;
+	transform: translate($horizontalAlignment, 0);
+	margin-bottom: $verticalAlignment;
+}

@@ -67,7 +67,7 @@
 
 .header-display::before { background: #60AB60; content: " "; display: inline-block; width: 7px; }
 
-h1.header-display::before { height: 3.75rem; transform: translate(-15px, 0); margin-bottom: -0.937rem; }
+h1.header-display::before { height: 3.75rem; transform: translate(-15px, 0); margin-bottom: -0.9375rem; }
 
 h2.header-display::before { height: 3rem; transform: translate(-15px, 0); margin-bottom: -0.75rem; }
 

@@ -24,33 +24,25 @@
 
 h1.header-display {
 	&::before {
-		height: 3.75rem; // 150% of text-size
-		transform: translate(-15px, 0);
-		margin-bottom: -0.937rem; // 25% of height
+		@include headerDisplayBefore(2.5rem);
 	}
 }
 
 h2.header-display {
 	&::before {
-		height: 3rem;
-		transform: translate(-15px, 0);
-		margin-bottom: -0.75rem;
+		@include headerDisplayBefore(2rem);
 	}
 }
 
 h3.header-display {
 	&::before {
-		height: 2.625rem;
-		transform: translate(-15px, 0);
-		margin-bottom: -0.65625rem;
+		@include headerDisplayBefore(1.75rem);
 	}
 }
 
 h4.header-display {
 	&::before {
-		height: 2.25rem;
-		transform: translate(-15px, 0);
-		margin-bottom: -0.5625rem;
+		@include headerDisplayBefore(1.5rem);
 	}
 }
 
