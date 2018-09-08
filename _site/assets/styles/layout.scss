@@ -4,7 +4,6 @@
 
 .border-left-right {
     // z-index: 99;
-    border-left: 1px solid $oc-gray-3 !important;
     border-right: 1px solid $oc-gray-3 !important;
 }
 
@@ -12,6 +11,7 @@
   min-height: 100vh;
   height: 100%;
   width: 100%;
+  border-right: 1px solid $oc-gray-3 !important;
 
   // position: fixed;
 
@@ -27,7 +27,6 @@
     font-size: 1rem;
     font-weight: 400 !important;
     padding-left: 1.1rem !important;
-    // border-color: $oc-gray-4;
   }
 }
 
@@ -51,6 +50,9 @@
   }
 }
 
+.rb-sidebar__2 {
+  background-color: $oc-gray-1 !important;
+}
 
 .row {
   margin: auto !important;
