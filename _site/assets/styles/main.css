@@ -2,7 +2,7 @@
 
 .border-left-right { border-right: 1px solid #dee2e6 !important; }
 
-.sidebar { min-height: 100vh; height: 100%; width: 100%; border-right: 1px solid #dee2e6 !important; }
+.sidebar { min-height: 100vh; height: 100%; width: 100%; border-right: 1px solid #F8F9FA !important; }
 .sidebar .list-group { position: fixed; }
 .sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; font-size: 1rem; font-weight: 400 !important; padding-left: 1.1rem !important; }
 
