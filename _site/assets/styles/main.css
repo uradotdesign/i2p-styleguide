@@ -216,6 +216,6 @@ h4.header-display::before { height: 2.25rem; transform: translate(-15px, 0); mar
 @media (max-width: 992px) { .display-md { display: none !important; } }
 .display-md { display: unset; }
 
-body { color: #212529; font-family: "Source Sans Pro", sans-serif !important; font-size: 1.2rem; }
+body { color: #212529; font-family: "Source Sans Pro", sans-serif !important; font-size: 1rem; }
 
 a { text-decoration: none !important; }
