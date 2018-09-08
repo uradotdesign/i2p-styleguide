@@ -25,7 +25,7 @@
     border: 0;
     border-radius: 0 !important;
     font-size: 1rem;
-     font-weight: 400 !important;
+    font-weight: 400 !important;
     padding-left: 1.1rem !important;
     // border-color: $oc-gray-4;
   }
@@ -36,10 +36,14 @@
 }
 
 .sidebar__link__light {
-  color: $oc-gray-9 !important;
+  color: $oc-gray-6 !important;
 
   &:hover {
-    color: $secondary !important;
+    color: $oc-black !important;
+  }
+
+  &:active {
+    color: $primary;
   }
 }
 

@@ -8,8 +8,9 @@
 
 .sidebar-wrapper { background-color: #dee2e6; }
 
-.sidebar__link__light { color: #212529 !important; }
-.sidebar__link__light:hover { color: #60AB60 !important; }
+.sidebar__link__light { color: #868e96 !important; }
+.sidebar__link__light:hover { color: #000000 !important; }
+.sidebar__link__light:active { color: #4661A9; }
 
 .row { margin: auto !important; }
 
