@@ -42,8 +42,8 @@
     color: $oc-black !important;
     transition-timing-function: linear;
     -webkit-transition-timing-function: linear;
-    -webkit-transition-duration: .15s;
-    transition-duration: .15s;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
   }
 
   &:active {
@@ -58,17 +58,12 @@
 
 .active,
 .active:hover {
-  background-color: $oc-gray-3 !important;
-	box-shadow: inset 5px 0 $primary;
+ // background-color: $oc-gray-3 !important;
+//	box-shadow: inset 5px 0 $primary;
 
   & * {
     color: $primary !important;
   }
-}
-
-.rb-sidebar__2 .active {
-	background-color: $oc-gray-3 !important;
-	box-shadow: inset 5px 0 $primary;
 }
 
 .rp-navbar__top {
@@ -92,14 +87,6 @@
 	&:hover {
 		color: $oc-white;
 	}
-}
-
-.rb-sidebar__1 {
-  background-color: $oc-gray-1;
-}
-
-.rb-sidebar__2 {
-  background-color: $oc-gray-0;
 }
 
 .rb-contain {
@@ -146,7 +133,7 @@
 
 .list-group-item:focus,
 .list-group-item:hover {
-   background-color: $oc-gray-2 !important;
+  //  background-color: $oc-gray-2 !important;
 
 	 & * {
 		 color: $primary;

@@ -9,15 +9,12 @@
 .sidebar-wrapper { background-color: #dee2e6; }
 
 .sidebar__link__light { color: #868e96 !important; }
-.sidebar__link__light:hover { color: #000000 !important; transition-timing-function: linear; -webkit-transition-timing-function: linear; -webkit-transition-duration: .15s; transition-duration: .15s; }
+.sidebar__link__light:hover { color: #000000 !important; transition-timing-function: linear; -webkit-transition-timing-function: linear; -webkit-transition-duration: .3s; transition-duration: .3s; }
 .sidebar__link__light:active { color: #4661A9; }
 
 .row { margin: auto !important; }
 
-.active, .active:hover { background-color: #dee2e6 !important; box-shadow: inset 5px 0 #4661A9; }
 .active *, .active:hover * { color: #4661A9 !important; }
-
-.rb-sidebar__2 .active { background-color: #dee2e6 !important; box-shadow: inset 5px 0 #4661A9; }
 
 .rp-navbar__top { background-color: #4661A9; }
 
@@ -27,10 +24,6 @@
 
 .navbar-light .navbar-nav .nav-link { color: rgba(255, 255, 255, 0.5); }
 .navbar-light .navbar-nav .nav-link:hover { color: #ffffff; }
-
-.rb-sidebar__1 { background-color: #f1f3f5; }
-
-.rb-sidebar__2 { background-color: #f8f9fa; }
 
 .rb-contain { width: 100%; height: auto; max-height: 100%; }
 
@@ -49,7 +42,6 @@
 @media screen and (max-width: 991px) { .hidden-sm { display: none !important; } }
 .sidebar-fill { width: 12.45%; }
 
-.list-group-item:focus, .list-group-item:hover { background-color: #e9ecef !important; }
 .list-group-item:focus *, .list-group-item:hover * { color: #4661A9; }
 
 .list-group-item.active { color: #4661A9; }
