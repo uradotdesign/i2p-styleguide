@@ -4,7 +4,7 @@
 
 .sidebar { min-height: 100vh; height: 100%; width: 100%; }
 .sidebar .list-group { position: fixed; }
-.sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; font-size: 1rem; font-weight: 600 !important; padding-left: 1.1rem !important; }
+.sidebar .list-group-item { background-color: transparent; border: 0; border-radius: 0 !important; font-size: 1rem; font-weight: 400 !important; padding-left: 1.1rem !important; }
 
 .sidebar-wrapper { background-color: #dee2e6; }
 
