@@ -9,7 +9,7 @@
 .sidebar-wrapper { background-color: #dee2e6; }
 
 .sidebar__link__light { color: #868e96 !important; }
-.sidebar__link__light:hover { color: #000000 !important; }
+.sidebar__link__light:hover { color: #000000 !important; transition-timing-function: linear; -webkit-transition-timing-function: linear; -webkit-transition-duration: .15s; transition-duration: .15s; }
 .sidebar__link__light:active { color: #4661A9; }
 
 .row { margin: auto !important; }
