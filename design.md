@@ -1,7 +1,7 @@
 ---
-  layout: visuals
-  title: Visuals
-  permalink: /visuals/
+  layout: design
+  title: Design
+  permalink: /design/
 
   sidebar:
    - colors: Colors
