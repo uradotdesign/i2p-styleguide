@@ -16,6 +16,7 @@
       </div>
         <div class="col-lg-9 pt-3 pl-5">
           {{ content }}
+          {% include /design/colors.html participants=site.data.profiles %}
           {% include scrollspy.html %}
           {% include scripts.html %}
       </div>
