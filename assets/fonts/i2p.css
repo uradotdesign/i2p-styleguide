@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'i2p';
+  src: url('i2p.eot');
+  src: url('i2p.eot') format('embedded-opentype'),
+       url('i2p.woff2') format('woff2'),
+       url('i2p.woff') format('woff'),
+       url('i2p.ttf') format('truetype'),
+       url('i2p.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'i2p';
+    src: url('../font/i2p.svg?48147931#i2p') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "i2p";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-i2p-help:before { content: '\e800'; } /* '' */
+.icon-i2p-mail:before { content: '\e801'; } /* '' */
+.icon-i2p-plugin:before { content: '\e802'; } /* '' */
+.icon-i2p-router:before { content: '\e803'; } /* '' */
+.icon-i2p-dashboard:before { content: '\e804'; } /* '' */
+.icon-i2p-bandwidth:before { content: '\e805'; } /* '' */
+.icon-i2p-server:before { content: '\e806'; } /* '' */
+.icon-i2p-paste:before { content: '\e807'; } /* '' */
+.icon-i2p-bug:before { content: '\e808'; } /* '' */
+.icon-i2p-docs:before { content: '\e809'; } /* '' */
+.icon-i2p-address:before { content: '\e80a'; } /* '' */
+.icon-i2p-wiki:before { content: '\e80b'; } /* '' */
+.icon-i2p-sync:before { content: '\e80c'; } /* '' */
+.icon-i2p-power:before { content: '\e80d'; } /* '' */
+.icon-i2p-directory:before { content: '\e80e'; } /* '' */
+.icon-i2p-fingerprint:before { content: '\e80f'; } /* '' */
+.icon-i2p-alert:before { content: '\e810'; } /* '' */
+.icon-i2p-valid:before { content: '\e811'; } /* '' */
+.icon-i2p-fast:before { content: '\e812'; } /* '' */
+.icon-i2p-anon:before { content: '\e813'; } /* '' */
