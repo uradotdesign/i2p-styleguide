@@ -6,12 +6,12 @@
             <div class="row">
                 {% for icons_hash in page.icons %}
                 {% for icon in icons_hash %}
-                <div class="col-4 col-sm-3 col-lg-2 text-center pt-3 pb-3">
+                <div class="col-1 col-sm-1 text-center pt-1 pb-1">
                     <div class="">
                         <span class="{{ icon[1] }} text-muted" style="font-size:2rem;"></span>
                     </div>
-                    <div class="mb-5 text-center">
-                        <span>{{icon[0]}}</span>
+                    <div class="mb-1 text-center">
+                        <span style="font-size: 0.85rem">{{icon[0]}}</span>
                     </div>
                 </div>
                 {% endfor %}
