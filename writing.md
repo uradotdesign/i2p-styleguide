@@ -5,6 +5,7 @@
 
   sidebar:
   - personality: Personality
+  - language: Language
 ---
 
 This is the Writing page!
