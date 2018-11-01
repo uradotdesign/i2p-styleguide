@@ -55,6 +55,8 @@
 
 .b-border { border-bottom: 2px solid lightgrey !important; }
 
+.typo-text { display: inline-block; }
+
 .color { height: 100px; }
 
 .grid { height: 100px; background-color: #4661A9; border-radius: 7px; }
