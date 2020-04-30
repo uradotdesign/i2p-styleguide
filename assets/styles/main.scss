@@ -1,17 +1,17 @@
 ---
-
 ---
 
 @import "vars";
 @import "layout";
-
+@import "fonts";
 @import "visuals";
 @import "components";
 @import "state";
 
+
 body {
-	color: $oc-gray-9;
-  font-family: $font;
+	color: $gray-9;
+  font-family: $body-font;
 	font-size: 1rem;
 }
 

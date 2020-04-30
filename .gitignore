@@ -1,5 +1,5 @@
 # automatically generated with jekyll serve
 _site/
-
+.jekyll-cache
 # vim sessions
 *.ses

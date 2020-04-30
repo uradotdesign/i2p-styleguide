@@ -1,17 +1,18 @@
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-weight: 400 !important;
+    font-weight: 700 !important;
+    font-family: $header-font;
 }
 
 .border-left-right {
     // z-index: 99;
-    border-right: 1px solid $oc-gray-3 !important;
+    border-right: 1px solid $gray-3 !important;
 }
 
 .sidebar {
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  border-right: 1px solid $oc-gray-3 !important;
+  border-right: 1px solid $gray-3 !important;
 
   // position: fixed;
 
@@ -31,14 +32,14 @@
 }
 
 .sidebar-wrapper {
-  background-color: $oc-gray-3;
+  background-color: $gray-3;
 }
 
 .sidebar__link__light {
-  color: $oc-gray-7 !important;
+  color: $gray-7 !important;
 
   &:hover {
-    color: $oc-black !important;
+    color: $black !important;
     transition-timing-function: linear;
     -webkit-transition-timing-function: linear;
     -webkit-transition-duration: .3s;
@@ -60,7 +61,7 @@
 
 .active,
 .active:hover {
- // background-color: $oc-gray-3 !important;
+ // background-color: $gray-3 !important;
 //	box-shadow: inset 5px 0 $primary;
 
   & * {
@@ -68,7 +69,7 @@
   }
 }
 
-.rp-navbar__top {
+.navbar__top {
   background-color: $primary;
 }
 
@@ -87,7 +88,7 @@
 	color: rgba(255,255,255,.5);
 	
 	&:hover {
-		color: $oc-white;
+		color: $white;
 	}
 }
 
@@ -118,7 +119,6 @@
   justify-content: space-between;
 }
 
-
 .hidden-sm {
   display: block;
 }
@@ -135,7 +135,7 @@
 
 .list-group-item:focus,
 .list-group-item:hover {
-  //  background-color: $oc-gray-2 !important;
+  //  background-color: $gray-2 !important;
 
 	 & * {
 		 color: $primary;

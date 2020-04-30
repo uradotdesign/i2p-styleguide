@@ -1,3 +1,5 @@
+// Alerts
+
 .alert {
 	border-radius: 15px;
 
@@ -28,16 +30,16 @@
 		}
 	}
 	&-secondary {
-		color: $oc-gray-7;
-		background-color: $oc-gray-2;
-		border-color: $oc-gray-6;
+		color: $gray-7;
+		background-color: $gray-2;
+		border-color: $gray-6;
 
 		& hr {
-			border-top-color: $oc-gray-6;
+			border-top-color: $gray-6;
 		}
 
 		& .alert-link {
-		color: $oc-gray-8;
+		color: $gray-8;
 		}
 	}
 	&-success {
@@ -81,12 +83,22 @@
 	}
 }
 
+// Primary & Secondary Backgrounds
+
 .background-primary {
   background-color: $primary;
 }
 
 .background-secondary {
   background-color: $secondary;
+}
+
+.background-black {
+  background-color: $black;
+}
+
+.background-white {
+  background-color: $white;
 }
 
 .background-warning {
@@ -97,53 +109,160 @@
   background-color: $danger;
 }
 
+// Other color backgrounds
 
 .background-gray-0 {
-  background-color: $oc-gray-0;
+  background-color: $gray-0;
 }
 
 .background-gray-1 {
-  background-color: $oc-gray-1;
+  background-color: $gray-1;
 }
 
 .background-gray-2 {
-  background-color: $oc-gray-2;
+  background-color: $gray-2;
 }
 
 .background-gray-3 {
-  background-color: $oc-gray-3;
+  background-color: $gray-3;
 }
 
 .background-gray-4 {
-  background-color: $oc-gray-4;
+  background-color: $gray-4;
 }
 
 .background-gray-5 {
-  background-color: $oc-gray-5;
+  background-color: $gray-5;
 }
 
 .background-gray-6 {
-  background-color: $oc-gray-6;
+  background-color: $gray-6;
 }
 
 .background-gray-7 {
-  background-color: $oc-gray-7;
+  background-color: $gray-7;
 }
 
 .background-gray-8 {
-  background-color: $oc-gray-8;
+  background-color: $gray-8;
 }
 
 .background-gray-9 {
-  background-color: $oc-gray-9;
+  background-color: $gray-9;
 }
 
-.background-black {
-  background-color: $oc-black;
+.background-indigo-100 {
+  background-color: $indigo-100;
 }
+
+.background-indigo-200 {
+  background-color: $indigo-200;
+}
+
+.background-indigo-300 {
+  background-color: $indigo-300;
+}
+
+.background-indigo-400 {
+  background-color: $indigo-400;
+}
+
+.background-indigo-500 {
+  background-color: $indigo-500;
+}
+
+.background-indigo-600 {
+  background-color: $indigo-600;
+}
+
+.background-indigo-700 {
+  background-color: $indigo-700;
+}
+
+.background-indigo-800 {
+  background-color: $indigo-800;
+}
+
+.background-indigo-900 {
+  background-color: $indigo-900;
+}
+
+.background-teal-100 {
+  background-color: $teal-100;
+}
+
+.background-teal-200 {
+  background-color: $teal-200;
+}
+
+.background-teal-300 {
+  background-color: $teal-300;
+}
+
+.background-teal-400 {
+  background-color: $teal-400;
+}
+
+.background-teal-500 {
+  background-color: $teal-500;
+}
+
+.background-teal-600 {
+  background-color: $teal-600;
+}
+
+.background-teal-700 {
+  background-color: $teal-700;
+}
+
+.background-teal-800 {
+  background-color: $teal-800;
+}
+
+.background-teal-900 {
+  background-color: $teal-900;
+}
+
+.background-orange-100 {
+  background-color: $orange-100;
+}
+
+.background-orange-200 {
+  background-color: $orange-200;
+}
+
+.background-orange-300 {
+  background-color: $orange-300;
+}
+
+.background-orange-400 {
+  background-color: $orange-400;
+}
+
+.background-orange-500 {
+  background-color: $orange-500;
+}
+
+.background-orange-600 {
+  background-color: $orange-600;
+}
+
+.background-orange-700 {
+  background-color: $orange-700;
+}
+
+.background-orange-800 {
+  background-color: $orange-800;
+}
+
+.background-orange-900 {
+  background-color: $orange-900;
+}
+
+// Text colors
 
 .color-primary {
-  color: $primary
+  color: $primary;
 }
 
 .color-secondary {
@@ -151,7 +270,7 @@
 }
 
 .color-gray-9 {
-  color: $oc-gray-9;
+  color: $gray-9;
 }
 
 .rb-code {
@@ -162,9 +281,7 @@
   font-weight: bold;
 }
 
-/*
-	Overwriting the default size for btn-lg and btn-md
-*/
+// Buttons
 
 .btn-primary,
 .btn-outline-primary,
@@ -176,7 +293,6 @@
 .btn-outline-medium {
 	line-height: 1em;
 }
-
 
 .btn-primary {
   background-color: $primary !important;
@@ -191,12 +307,12 @@
 
 .btn-white {
 	color: $primary !important;
-  background-color: $oc-white !important;
+  background-color: $white !important;
   border-color: transparent !important;
   padding: 1rem 1.5rem !important;
   font-size: 1rem;
   &:hover {
-		color: $oc-white !important;
+		color: $white !important;
     background-color: $secondary !important;
     border-color: transparent !important;
   }
@@ -207,7 +323,7 @@
   border-color: transparent !important;
   padding: .08rem .4rem 0 !important;
   font-size: .8rem;
-  color: $oc-white;
+  color: $white;
   &:hover {
     background-color: $secondary !important;
     border-color: transparent !important;
@@ -219,11 +335,11 @@
   border-color: transparent !important;
   padding: .5rem 1rem !important;
   font-size: 1rem !important;
-  color: $oc-white;
+  color: $white;
   &:hover {
     background-color: $secondary !important;
     border-color: transparent !important;
-    color: $oc-white;
+    color: $white;
   }
 }
 
@@ -234,11 +350,11 @@
 	border-radius: 2em;
   padding: .5rem 1rem !important;
   font-size: 1.25rem !important;
-  color: $oc-white;
+  color: $white;
   &:hover {
     background-color: $secondary !important;
     border-color: transparent !important;
-    color: $oc-white;
+    color: $white;
   }
 
 }
@@ -250,7 +366,7 @@
   background-color: transparent !important;
 
   &:hover {
-    color: white !important;
+    color: $white !important;
     background-color: $primary !important;
     border-color: transparent !important;
   }
@@ -264,7 +380,7 @@
   background-color: transparent !important;
 
   &:hover {
-    color: white !important;
+    color: 4 !important;
     background-color: $primary !important;
     border-color: transparent !important;
   }
@@ -277,7 +393,7 @@
   font-size: 1rem;
 
   &:hover {
-    color: white !important;
+    color: $white !important;
     background-color: $primary !important;
     border-color: transparent !important;
   }
@@ -319,17 +435,6 @@
 	border-radius: 30px;
 }
 
-.faq__chevron-up {
-  height: .8em;
-  vertical-align: -.06em;
-  fill: currentColor;
-  margin-left: .5em;
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
 .badge-primary {
   background-color: $primary !important;
 }
@@ -337,6 +442,8 @@
 .badge-secondary {
   background-color: $secondary !important;
 }
+
+// Footer
 
 .footer {
 	ul {
@@ -353,7 +460,7 @@
 			font-weight: 400;
 
 			&:hover {
-				color: $oc-white;
+				color: $white;
 			}
 		}
 	}
@@ -367,7 +474,7 @@
 			margin-bottom: 1rem;
 			color: rgba(255,255,255,0.5);
 			&:hover {
-				color: $oc-white;
+				color: $white;
 			}
 		}
 	}
@@ -388,13 +495,14 @@
 		height: 2rem;
 	}
 }
+
 #styleguide-nav {
   background-color: $primary !important;
 	.nav-item:hover {
-		box-shadow: inset 0 -5px $oc-white;
+		box-shadow: inset 0 -5px $white;
 	}
 	.nav-link {
-		color: $oc-white;
+		color: $white;
 	}
 
 	.show {
@@ -413,7 +521,7 @@
 
 .rb-paginate-active {
   background-color: $primary !important;
-  color: white !important;
+  color: $white !important;
 
   &:hover {
     background-color: $secondary !important;
@@ -421,14 +529,14 @@
 }
  
 .pagination .page-link {
-	color: $oc-gray-9;
+	color: $gray-9;
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-  background-color: $oc-gray-3 !important;
+  background-color: $gray-3 !important;
 }
 
 .mark, mark {
-  background-color: $oc-gray-3 !important;
+  background-color: $gray-3 !important;
   padding: .2em !important;
 }
