@@ -259,6 +259,50 @@
   background-color: $orange-900;
 }
 
+.background-night-50 {
+  background-color: $night-50;
+}
+
+.background-night-100 {
+  background-color: $night-100;
+}
+
+.background-night-200 {
+  background-color: $night-200;
+}
+
+.background-night-300 {
+  background-color: $night-300;
+}
+
+.background-night-400 {
+  background-color: $night-400;
+}
+
+.background-night-500 {
+  background-color: $night-500;
+}
+
+.background-night-600 {
+  background-color: $night-600;
+}
+
+.background-night-700 {
+  background-color: $night-700;
+}
+
+.background-night-800 {
+  background-color: $night-800;
+}
+
+.background-night-900 {
+  background-color: $night-900;
+}
+
+.background-night-950 {
+  background-color: $night-950;
+}
+
 // Text colors
 
 .color-primary {
@@ -548,6 +592,7 @@ img {
 .theme-toggle {
   display: inline-flex;
   position: absolute;
+  cursor: pointer;
   top: 36px;
   right: 36px;
 }
@@ -561,7 +606,7 @@ img {
 }
 
 .dropdown-menu {
-  background-color: var(--box-bg);
+  background-color: var(--box) !important;
 }
 
 .dropdown-item {
