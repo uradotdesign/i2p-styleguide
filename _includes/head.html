@@ -7,3 +7,70 @@
   <link href="{{'/assets/fonts/i2p.css' | prepend: site.baseurl}}" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+<script> // Theme check on load
+        (function () {
+            var theme = window.localStorage.getItem("theme");
+            if (theme) {
+                document.documentElement.dataset.theme = theme;
+            }
+        }());
+</script>
+
+<script> // Detect media preference changes such as changing themes in browser/system
+        (function() {
+            var mqDark = window.matchMedia('(prefers-color-scheme: dark)');
+            var mqLight = window.matchMedia('(prefers-color-scheme: light)');
+            var theme = window.localStorage.getItem('theme');
+
+            function checkTheme(event) {
+                if (event.matches) {
+                    if (event.media.includes('dark')) {
+                        document.documentElement.dataset.theme = 'dark';
+                    }
+                    if (event.media.includes('light')) {
+                        document.documentElement.dataset.theme = 'light';
+                    }
+                }
+            }
+
+            if (!theme) {
+                try {
+                    mqDark.addEventListener('change', checkTheme);
+                    mqLight.addEventListener('change', checkTheme);
+                } catch (maybeSafari) {
+                    try {
+                        mqDark.addListener(checkTheme);
+                        mqLight.addListener(checkTheme);
+                    } catch (dontknow) {
+                        // not supported…
+                    }
+                }       
+            }
+        }());
+</script>
+
+<script> // Asks on first time if you want to check out the dark theme
+        (function() {
+            var theme = window.localStorage.getItem('theme');
+
+            function revokeTheme() {
+                if (!window.confirm('Do you want to stay with that theme?')) {
+                    window.localStorage.removeItem('theme');
+                    document.documentElement.dataset.theme = null;
+                }
+            }
+
+            if (!theme) {
+                if (window.confirm('This page offers a "dark" theme, you want to try it?')) {
+                    window.localStorage.setItem('theme', 'dark');
+                    document.documentElement.dataset.theme = 'dark';
+                    window.setTimeout(revokeTheme, 3000);
+                } else {
+                    window.localStorage.setItem('theme', 'light');
+                    document.documentElement.dataset.theme = 'light';
+                }
+            }
+
+        }())
+</script>

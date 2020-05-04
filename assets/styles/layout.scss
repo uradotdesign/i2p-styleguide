@@ -3,16 +3,11 @@
     font-family: $header-font;
 }
 
-.border-left-right {
-    // z-index: 99;
-    border-right: 1px solid $gray-3 !important;
-}
-
 .sidebar {
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  border-right: 1px solid $gray-3 !important;
+  background-color: var(--sidebar-inner-bg);
 
   // position: fixed;
 
@@ -25,18 +20,26 @@
     background-color: transparent;
     border: 0;
     border-radius: 0 !important;
+    padding: 1.25rem 1.5rem !important;
     font-size: 1rem;
     font-weight: 400 !important;
-    padding-left: 1.1rem !important;
+
+    &:hover {
+      background-color: var(--sidebar-bg);
+    }
+
+    &.active  {
+      background-color: var(--sidebar-bg);
+    }
   }
 }
 
 .sidebar-wrapper {
-  background-color: $gray-3;
+  background-color: $gray-300;
 }
 
 .sidebar__link__light {
-  color: $gray-7 !important;
+  color: var(--sidebar-text) !important;
 
   &:hover {
     color: $black !important;
@@ -46,13 +49,15 @@
     transition-duration: .3s;
   }
 
-  &:active {
-    color: $primary;
+  &.active {
+    color: var(--primary-2nd);
+    background-color: var(--sidebar-bg);
   }
 }
 
 .rb-sidebar__2 {
-  background-color: #F8F9FA !important;
+  background-color: var(--sidebar-inner-bg) !important;
+  color: var(--sidebar-text) !important;
 }
 
 .row {
@@ -70,22 +75,22 @@
 }
 
 .navbar__top {
-  background-color: $primary;
+  background-color: var(--navbar-bg);
 }
 
 // bootstrap navbar-light class is not working, overwriting classes to fix this
 //TODO fix this issue
 
-.navbar-light .navbar-toggler {
-	border-color: rgba(255,255,255,.5);
+.navbar-dark .navbar-toggler {
+	border-color: rgba(255,255,255,.75) !important;
 }
 
 .navbar-light .navbar-toggler-icon {
  	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.navbar-light .navbar-nav .nav-link {
-	color: rgba(255,255,255,.5);
+.navbar-nav .nav-item .nav-link {
+	color: rgba(255,255,255,.75) !important;
 	
 	&:hover {
 		color: $white;
@@ -93,7 +98,6 @@
 }
 
 .rb-contain {
-  width: 100%;
   height: auto;
   max-height: 100%;
 }
@@ -135,18 +139,20 @@
 
 .list-group-item:focus,
 .list-group-item:hover {
-  //  background-color: $gray-2 !important;
 
 	 & * {
 		 color: $primary;
 	 }
 }
+
 .list-group-item.active {
 	color: $primary;
 }
 
 .bg-box {
-  background-color: #f1f3f5 !important;
+  border: 1px solid var(--box);
+  background: var(--box-bg);
+  padding: 20px;
 }
 
 .bg {
@@ -164,4 +170,32 @@
 
 .typo-text {
   display: inline-block;
+}
+
+.curved {
+  border-radius: 10px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  vertical-align: bottom;
+  float: left;
+}
+
+.bg-smallest {
+  padding: 15px;
+  border: 1px solid var(--box);
+  background: var(--box-bg);
+  box-sizing: border-box;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.image {
+  max-height: 160px;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  text-align: center;
 }

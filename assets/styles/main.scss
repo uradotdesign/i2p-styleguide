@@ -10,11 +10,127 @@
 
 
 body {
-	color: $gray-9;
+  color: var(--text) !important;
+  background-color: var(--body) !important;
   font-family: $body-font;
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 a {
   text-decoration: none !important;
+  color: var(--link) !important;
+}
+
+a:hover {
+  color: var(--link-hover) !important;
+}
+
+:root {
+  --primary: #{$indigo-600};
+  --primary-2nd: #{$indigo-900};
+  --secondary: #{$teal-400};
+  --secondary-2nd: #{$orange-400};
+  --body: #{$white};
+  --text: #{$gray-900};
+  --link: #{$teal-500};
+  --link-hover: #{$teal-600};
+  --logo-text-color: #{$indigo-900};
+  --header-text: #{$gray-900};
+  --sidebar-bg: #{$gray-100};
+  --sidebar-inner-bg: #{$gray-50};
+  --sidebar-text: #{$gray-800};
+  --navbar-bg: #{$indigo-500};
+  --hover: #{$black};
+  --border: #{$gray-300};
+  --card-bg: #{$gray-100};
+  --bg-hover: #{$gray-200};
+  --navtop-color: #{$white};
+  --navtop-hover: #{$black};
+  --muted: #6c757d;
+  --box: #{$gray-200};
+  --box-bg: transparent;
+  --box-buttons-bg: transparent;
+  --default-bg: #{$gray-200};
+  --default-hover: #{$gray-300};
+  --default-pressed: #{$gray-500};
+  --default-disabled: #{$gray-200};
+  --alert-generic: #{$gray-100};
+  --alert-success: #{$indigo-200};
+  --alert-warning: #{$orange-200};
+  --alert-warning-text: #{$gray-900};
+  --alert-warning-icon: #{$orange-800};
+  --alert-tip: #{$teal-100};
+}
+
+html[data-theme="light"] {
+  --primary: #{$indigo-600};
+  --primary-2nd: #{$indigo-900};
+  --secondary: #{$teal-400};
+  --secondary-2nd: #{$orange-400};
+  --body: #{$white};
+  --text: #{$gray-900};
+  --link: #{$teal-500};
+  --link-hover: #{$teal-600};
+  --logo-text-color: #{$indigo-900};
+  --header-text: #{$gray-900};
+  --sidebar-bg: #{$gray-100};
+  --sidebar-inner-bg: #{$gray-50};
+  --sidebar-text: #{$gray-800};
+  --navbar-bg: #{$indigo-500};
+  --hover: #{$black};
+  --border: #{$gray-300};
+  --card-bg: #{$gray-100};
+  --bg-hover: #{$gray-200};
+  --navtop-color: #{$white};
+  --navtop-hover: #{$black};
+  --muted: #6c757d;
+  --box: #{$gray-200};
+  --box-bg: transparent;
+  --box-buttons-bg: transparent;
+  --default-bg: #{$gray-200};
+  --default-hover: #{$gray-300};
+  --default-pressed: #{$gray-500};
+  --default-disabled: #{$gray-200};
+  --alert-generic: #{$gray-100};
+  --alert-success: #{$indigo-200};
+  --alert-warning: #{$orange-200};
+  --alert-warning-text: #{$gray-900};
+  --alert-warning-icon: #{$orange-800};
+  --alert-tip: #{$teal-100};
+}
+
+html[data-theme="dark"] {
+  --primary: #{$night-200};
+  --primary-2nd: #{$night-200};
+  --secondary: #{$night-300};
+  --secondary-2nd: #{$night-300};
+  --body: #{$night-900};
+  --text: #{$white};
+  --link: #{$white};
+  --link-hover: #{$gray-200};
+  --logo-text-color: #{$white};
+  --header-text: #{$gray-900};
+  --sidebar-bg: #{$night-800};
+  --sidebar-inner-bg: #{$night-800};
+  --sidebar-text: #{$gray-100};
+  --navbar-bg: #{$night-800};
+  --hover: #{$gray-200};
+  --border: #{$night-600};
+  --card-bg: #{$night-800};
+  --bg-hover: #{$night-900};
+  --navtop-color: #{$white};
+  --navtop-hover: #{$gray-600};
+  --muted: #{$white};
+  --box: #{$night-700};
+  --box-bg: #{$night-800};
+  --default-bg: rgba(255, 255, 255, 0.1);
+  --default-hover: rgba(255, 255, 255, 0.05);
+  --default-pressed: rgba(0, 0, 0, 0.2);
+  --default-disabled: rgba(255, 255, 255, 0.025);
+  --alert-generic: #{$night-700};
+  --alert-success: #{$night-700};
+  --alert-warning: #{$orange-800};
+  --alert-warning-text: #{$orange-500};
+  --alert-warning-icon: #{$orange-200};
+  --alert-tip: #{$teal-800};
 }

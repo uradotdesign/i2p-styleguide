@@ -47,3 +47,22 @@ $('.rb-sidebar').on('click',function() {
     $('.rb-sidebar.active').removeClass('active');
     $(this).addClass('active');
 });
+
+// Theme Toggle
+
+var toggle1 = document.getElementById("themer");
+var toggle2 = document.getElementById("themer2");
+
+toggle1.addEventListener('click', changeTheme);
+toggle2.addEventListener('click', changeTheme);
+
+function changeTheme() {
+  if (document.documentElement.dataset.theme == 'dark') {
+          document.documentElement.dataset.theme = 'light';
+          window.localStorage.setItem('theme', 'light');
+      } 
+      else if (document.documentElement.dataset.theme == 'light') {
+          document.documentElement.dataset.theme = 'dark';
+          window.localStorage.setItem('theme', 'dark');
+      }
+}

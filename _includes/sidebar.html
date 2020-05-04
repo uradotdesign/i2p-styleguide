@@ -1,5 +1,5 @@
-<div class="sidebar border-left-right {{ include.sidebarClassName }}" id="sidebar" style="border-color: $oc-gray-1;">
-  <ul class="p-0 list-group pt-3 sidebar-fill">
+<div class="sidebar {{ include.sidebarClassName }}" id="sidebar">
+  <ul class="p-0 list-group sidebar-fill">
     {% for sidebar_hash in page.sidebar %}
       {% for link in sidebar_hash %}
         <a class="sidebar__link__light" href="#{{ link[0] }}"><li class="list-group-item rb-sidebar">

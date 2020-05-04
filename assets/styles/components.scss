@@ -30,16 +30,16 @@
 		}
 	}
 	&-secondary {
-		color: $gray-7;
-		background-color: $gray-2;
-		border-color: $gray-6;
+		color: $gray-700;
+		background-color: $gray-200;
+		border-color: $gray-600;
 
 		& hr {
-			border-top-color: $gray-6;
+			border-top-color: $gray-600;
 		}
 
 		& .alert-link {
-		color: $gray-8;
+		color: $gray-800;
 		}
 	}
 	&-success {
@@ -111,44 +111,44 @@
 
 // Other color backgrounds
 
-.background-gray-0 {
-  background-color: $gray-0;
+.background-gray-50 {
+  background-color: $gray-50;
 }
 
-.background-gray-1 {
-  background-color: $gray-1;
+.background-gray-100 {
+  background-color: $gray-100;
 }
 
-.background-gray-2 {
-  background-color: $gray-2;
+.background-gray-200 {
+  background-color: $gray-200;
 }
 
-.background-gray-3 {
-  background-color: $gray-3;
+.background-gray-300 {
+  background-color: $gray-300;
 }
 
-.background-gray-4 {
-  background-color: $gray-4;
+.background-gray-400 {
+  background-color: $gray-400;
 }
 
-.background-gray-5 {
-  background-color: $gray-5;
+.background-gray-500 {
+  background-color: $gray-500;
 }
 
-.background-gray-6 {
-  background-color: $gray-6;
+.background-gray-600 {
+  background-color: $gray-600;
 }
 
-.background-gray-7 {
-  background-color: $gray-7;
+.background-gray-700 {
+  background-color: $gray-700;
 }
 
-.background-gray-8 {
-  background-color: $gray-8;
+.background-gray-800 {
+  background-color: $gray-800;
 }
 
-.background-gray-9 {
-  background-color: $gray-9;
+.background-gray-900 {
+  background-color: $gray-900;
 }
 
 .background-indigo-100 {
@@ -270,7 +270,7 @@
 }
 
 .color-gray-9 {
-  color: $gray-9;
+  color: $gray-900;
 }
 
 .rb-code {
@@ -529,14 +529,46 @@
 }
  
 .pagination .page-link {
-	color: $gray-9;
+	color: $gray-900;
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-  background-color: $gray-3 !important;
+  background-color: $gray-300 !important;
 }
 
 .mark, mark {
-  background-color: $gray-3 !important;
+  background-color: $gray-300 !important;
   padding: .2em !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+
+@media screen and (max-width: 991px) {
+  .theme-toggle {
+    display: inline-flex;
+    position: absolute;
+    right: 96px;
+  }
+}
+
+.dropdown-menu {
+  background-color: var(--box-bg);
+}
+
+.dropdown-item {
+  color: var(--primary) !important;
+
+  &:hover {
+    color: var(--text);
+    background-color: var(--sidebar-inner-bg);
+  }
 }
