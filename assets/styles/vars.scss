@@ -13,19 +13,17 @@ $black: #000000;
 
 //  Gray
 $gray-list: (
-  "50": #f8f9fa,
-  "100": #f1f3f5,
-  "200": #e9ecef,
-  "300": #dee2e6,
-  "400": #ced4da,
-  "500": #adb5bd,
-  "600": #868e96,
-  "700": #495057,
-  "800": #343a40,
-  "900": #212529
+  "100": #F7FAFC,
+  "200": #EDF2F7,
+  "300": #E2E8F0,
+  "400": #CBD5E0,
+  "500": #A0AEC0,
+  "600": #718096,
+  "700": #4A5568,
+  "800": #2D3748,
+  "900": #1A202C
 );
 
-$gray-50: map-get($gray-list, "50");
 $gray-100: map-get($gray-list, "100");
 $gray-200: map-get($gray-list, "200");
 $gray-300: map-get($gray-list, "300");
@@ -39,7 +37,6 @@ $gray-900: map-get($gray-list, "900");
 // Night
 
 $night-list: (
-      "50": #EBF3FA,
       "100": #D1DAE6,
       "200": #B1BFCF,
       "300": #8A9CB3,
@@ -48,11 +45,9 @@ $night-list: (
       "600": #374B61,
       "700": #2E3D4F,
       "800": #212D3B,
-      "900": #15212D,
-      "950": #0E171F
+      "900": #15212D
 );
 
-$night-50: map-get($night-list, "50");
 $night-100: map-get($night-list, "100");
 $night-200: map-get($night-list, "200");
 $night-300: map-get($night-list, "300");
@@ -62,7 +57,6 @@ $night-600: map-get($night-list, "600");
 $night-700: map-get($night-list, "700");
 $night-800: map-get($night-list, "800");
 $night-900: map-get($night-list, "900");
-$night-950: map-get($night-list, "950");
 
 //  Indigo
 $indigo-list: (
@@ -132,6 +126,30 @@ $orange-600: map-get($orange-list, "600");
 $orange-700: map-get($orange-list, "700");
 $orange-800: map-get($orange-list, "800");
 $orange-900: map-get($orange-list, "900");
+
+
+//  Red
+$red-list: (
+        "100": #FFF5F5,
+        "200": #FED7D7,
+        "300": #FEB2B2,
+        "400": #FC8181,
+        "500": #F56565,
+        "600": #E53E3E,
+        "700": #C53030,
+        "800": #9B2C2C,
+        "900": #742A2A
+);
+
+$red-100: map-get($red-list, "100");
+$red-200: map-get($red-list, "200");
+$red-300: map-get($red-list, "300");
+$red-400: map-get($red-list, "400");
+$red-500: map-get($red-list, "500");
+$red-600: map-get($red-list, "600");
+$red-700: map-get($red-list, "700");
+$red-800: map-get($red-list, "800");
+$red-900: map-get($red-list, "900");
 
 // Mixins
 //

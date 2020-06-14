@@ -37,7 +37,7 @@ a:hover {
   --logo-text-color: #{$indigo-900};
   --header-text: #{$gray-900};
   --sidebar-bg: #{$gray-100};
-  --sidebar-inner-bg: #{$gray-50};
+  --sidebar-inner-bg: #{$gray-100};
   --sidebar-text: #{$gray-800};
   --navbar-bg: #{$indigo-500};
   --hover: #{$black};
@@ -69,14 +69,14 @@ html[data-theme="light"] {
   --secondary-2nd: #{$orange-400};
   --body: #{$white};
   --text: #{$gray-900};
-  --link: #{$teal-500};
+  --link: #{$indigo-600};
   --link-hover: #{$teal-600};
   --logo-text-color: #{$indigo-900};
   --header-text: #{$gray-900};
   --sidebar-bg: #{$gray-100};
-  --sidebar-inner-bg: #{$gray-50};
+  --sidebar-inner-bg: #{$gray-100};
   --sidebar-text: #{$gray-800};
-  --navbar-bg: #{$indigo-500};
+  --navbar-bg: #{$indigo-600};
   --hover: #{$black};
   --border: #{$gray-300};
   --card-bg: #{$gray-100};
@@ -113,7 +113,7 @@ html[data-theme="dark"] {
   --sidebar-bg: #{$night-800};
   --sidebar-inner-bg: #{$night-800};
   --sidebar-text: #{$gray-100};
-  --navbar-bg: #{$night-800};
+  --navbar-bg: #{$indigo-900};
   --hover: #{$gray-200};
   --border: #{$night-600};
   --card-bg: #{$night-800};

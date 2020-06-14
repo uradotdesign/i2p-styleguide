@@ -8,6 +8,7 @@
   height: 100%;
   width: 100%;
   background-color: var(--sidebar-inner-bg);
+  font-family: "Nunito", sans-serif;
 
   // position: fixed;
 
@@ -76,6 +77,7 @@
 
 .navbar__top {
   background-color: var(--navbar-bg);
+  font-family: "Nunito", sans-serif;
 }
 
 // bootstrap navbar-light class is not working, overwriting classes to fix this
@@ -248,7 +250,7 @@
       flex-basis: 50%;
 
       .pass { color: $indigo-700; }
-      .fail { color: $orange-500; }
+      .fail { color: $red-800; }
     }
   }
 

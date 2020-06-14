@@ -111,10 +111,6 @@
 
 // Other color backgrounds
 
-.background-gray-50 {
-  background-color: $gray-50;
-}
-
 .background-gray-100 {
   background-color: $gray-100;
 }
@@ -259,8 +255,40 @@
   background-color: $orange-900;
 }
 
-.background-night-50 {
-  background-color: $night-50;
+.background-red-100 {
+  background-color: $red-100;
+}
+
+.background-red-200 {
+  background-color: $red-200;
+}
+
+.background-red-300 {
+  background-color: $red-300;
+}
+
+.background-red-400 {
+  background-color: $red-400;
+}
+
+.background-red-500 {
+  background-color: $red-500;
+}
+
+.background-red-600 {
+  background-color: $red-600;
+}
+
+.background-red-700 {
+  background-color: $red-700;
+}
+
+.background-red-800 {
+  background-color: $red-800;
+}
+
+.background-red-900 {
+  background-color: $red-900;
 }
 
 .background-night-100 {
@@ -297,10 +325,6 @@
 
 .background-night-900 {
   background-color: $night-900;
-}
-
-.background-night-950 {
-  background-color: $night-950;
 }
 
 // Text colors
@@ -444,10 +468,11 @@
 }
 
 .btn-link {
-  color: $primary !important;
+  color: var(--link) !important;
+  font-family: "Nunito", sans-serif;
 
   &:hover {
-    color: $secondary !important;
+    color: var(--link-hover) !important;
   }
 }
 
@@ -557,9 +582,9 @@
 }
 
 .rb-link {
-  color: $primary !important;
+  color: var(--link) !important;
   &:hover {
-    color: $secondary !important;
+    color: var(--link-hover) !important;
   }
 }
 
