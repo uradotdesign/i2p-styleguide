@@ -73,7 +73,7 @@ html[data-theme="light"] {
   --link-hover: #{$teal-600};
   --logo-text-color: #{$indigo-900};
   --header-text: #{$gray-900};
-  --sidebar-bg: #{$gray-100};
+  --sidebar-bg: #{$gray-200};
   --sidebar-inner-bg: #{$gray-100};
   --sidebar-text: #{$gray-800};
   --navbar-bg: #{$indigo-600};
@@ -110,7 +110,7 @@ html[data-theme="dark"] {
   --link-hover: #{$gray-200};
   --logo-text-color: #{$white};
   --header-text: #{$gray-900};
-  --sidebar-bg: #{$night-800};
+  --sidebar-bg: #{$night-900};
   --sidebar-inner-bg: #{$night-800};
   --sidebar-text: #{$gray-100};
   --navbar-bg: #{$indigo-900};

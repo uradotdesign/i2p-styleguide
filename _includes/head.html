@@ -4,7 +4,6 @@
   <link rel="stylesheet" href="{{'/assets/static/bootstrap.min.css' | prepend: site.baseurl}}">
   <link rel="stylesheet" href="{{'/assets/styles/main.css' | prepend: site.baseurl}}">
   <link rel="shortcut icon" type="image/png" href="{{'/assets/images/favicon.png' | prepend: site.baseurl}}"/>
-  <link href="{{'/assets/fonts/i2p.css' | prepend: site.baseurl}}" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -48,29 +47,4 @@
                 }       
             }
         }());
-</script>
-
-<script> // Asks on first time if you want to check out the dark theme
-        (function() {
-            var theme = window.localStorage.getItem('theme');
-
-            function revokeTheme() {
-                if (!window.confirm('Do you want to stay with that theme?')) {
-                    window.localStorage.removeItem('theme');
-                    document.documentElement.dataset.theme = null;
-                }
-            }
-
-            if (!theme) {
-                if (window.confirm('This page offers a "dark" theme, you want to try it?')) {
-                    window.localStorage.setItem('theme', 'dark');
-                    document.documentElement.dataset.theme = 'dark';
-                    window.setTimeout(revokeTheme, 3000);
-                } else {
-                    window.localStorage.setItem('theme', 'light');
-                    document.documentElement.dataset.theme = 'light';
-                }
-            }
-
-        }())
 </script>
