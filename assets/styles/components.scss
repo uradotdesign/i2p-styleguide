@@ -3,19 +3,6 @@
 .alert {
 	border-radius: 15px;
 
-	&-custom {
-		color: #3b4f87;
-		background-color: #e2e6f0;
-		border-color: #6679ac;
-
-		& hr {
-			border-top-color: #6679ac;
-		}
-
-		& .alert-link {
-		color: #081b4f;
-		}
-	}
 	&-primary {
 		color: #3b4f87;
 		background-color: #e2e6f0;
@@ -28,7 +15,8 @@
 		& .alert-link {
 		color: #003600;
 		}
-	}
+  }
+  
 	&-secondary {
 		color: $gray-700;
 		background-color: $gray-200;
@@ -41,7 +29,8 @@
 		& .alert-link {
 		color: $gray-800;
 		}
-	}
+  }
+  
 	&-success {
 		color: #105c10;
 		background-color: #e1f2e1;
@@ -54,7 +43,8 @@
 		& .alert-link {
 		color: #003b00;
 		}
-	}
+  }
+  
 	&-warning {
 		color: #6b4c00;
 		background-color: #ffeab5;
@@ -67,7 +57,8 @@
 		& .alert-link {
 		color: #a66b00;
 		}
-	}
+  }
+  
 	&-danger {
 		color: #700b00;
 		background-color: #ffcac4;
@@ -101,232 +92,6 @@
   background-color: $white;
 }
 
-.background-warning {
-  background-color: $warning;
-}
-
-.background-danger {
-  background-color: $danger;
-}
-
-// Other color backgrounds
-
-.background-gray-100 {
-  background-color: $gray-100;
-}
-
-.background-gray-200 {
-  background-color: $gray-200;
-}
-
-.background-gray-300 {
-  background-color: $gray-300;
-}
-
-.background-gray-400 {
-  background-color: $gray-400;
-}
-
-.background-gray-500 {
-  background-color: $gray-500;
-}
-
-.background-gray-600 {
-  background-color: $gray-600;
-}
-
-.background-gray-700 {
-  background-color: $gray-700;
-}
-
-.background-gray-800 {
-  background-color: $gray-800;
-}
-
-.background-gray-900 {
-  background-color: $gray-900;
-}
-
-.background-indigo-100 {
-  background-color: $indigo-100;
-}
-
-.background-indigo-200 {
-  background-color: $indigo-200;
-}
-
-.background-indigo-300 {
-  background-color: $indigo-300;
-}
-
-.background-indigo-400 {
-  background-color: $indigo-400;
-}
-
-.background-indigo-500 {
-  background-color: $indigo-500;
-}
-
-.background-indigo-600 {
-  background-color: $indigo-600;
-}
-
-.background-indigo-700 {
-  background-color: $indigo-700;
-}
-
-.background-indigo-800 {
-  background-color: $indigo-800;
-}
-
-.background-indigo-900 {
-  background-color: $indigo-900;
-}
-
-.background-teal-100 {
-  background-color: $teal-100;
-}
-
-.background-teal-200 {
-  background-color: $teal-200;
-}
-
-.background-teal-300 {
-  background-color: $teal-300;
-}
-
-.background-teal-400 {
-  background-color: $teal-400;
-}
-
-.background-teal-500 {
-  background-color: $teal-500;
-}
-
-.background-teal-600 {
-  background-color: $teal-600;
-}
-
-.background-teal-700 {
-  background-color: $teal-700;
-}
-
-.background-teal-800 {
-  background-color: $teal-800;
-}
-
-.background-teal-900 {
-  background-color: $teal-900;
-}
-
-.background-orange-100 {
-  background-color: $orange-100;
-}
-
-.background-orange-200 {
-  background-color: $orange-200;
-}
-
-.background-orange-300 {
-  background-color: $orange-300;
-}
-
-.background-orange-400 {
-  background-color: $orange-400;
-}
-
-.background-orange-500 {
-  background-color: $orange-500;
-}
-
-.background-orange-600 {
-  background-color: $orange-600;
-}
-
-.background-orange-700 {
-  background-color: $orange-700;
-}
-
-.background-orange-800 {
-  background-color: $orange-800;
-}
-
-.background-orange-900 {
-  background-color: $orange-900;
-}
-
-.background-red-100 {
-  background-color: $red-100;
-}
-
-.background-red-200 {
-  background-color: $red-200;
-}
-
-.background-red-300 {
-  background-color: $red-300;
-}
-
-.background-red-400 {
-  background-color: $red-400;
-}
-
-.background-red-500 {
-  background-color: $red-500;
-}
-
-.background-red-600 {
-  background-color: $red-600;
-}
-
-.background-red-700 {
-  background-color: $red-700;
-}
-
-.background-red-800 {
-  background-color: $red-800;
-}
-
-.background-red-900 {
-  background-color: $red-900;
-}
-
-.background-night-100 {
-  background-color: $night-100;
-}
-
-.background-night-200 {
-  background-color: $night-200;
-}
-
-.background-night-300 {
-  background-color: $night-300;
-}
-
-.background-night-400 {
-  background-color: $night-400;
-}
-
-.background-night-500 {
-  background-color: $night-500;
-}
-
-.background-night-600 {
-  background-color: $night-600;
-}
-
-.background-night-700 {
-  background-color: $night-700;
-}
-
-.background-night-800 {
-  background-color: $night-800;
-}
-
-.background-night-900 {
-  background-color: $night-900;
-}
-
 // Text colors
 
 .color-primary {
@@ -335,10 +100,6 @@
 
 .color-secondary {
   color: $secondary;
-}
-
-.color-gray-9 {
-  color: $gray-900;
 }
 
 .rb-code {
@@ -476,30 +237,6 @@
   }
 }
 
-.btn-scroller {
-  border-radius: .25rem;
-  text-align: center;
-  display: inline-block;
-  -webkit-transition-duration: .1s;
-  -o-transition-duration: .1s;
-  -webkit-transition-timing-function: linear;
-  -o-transition-timing-function: linear;
-  -webkit-transition-property: background-color,color,border-color;
-  -o-transition-property: background-color,color,border-color;
-  padding: .5rem 1rem;
-  transition-duration: .1s;
-  transition-timing-function: linear;
-  transition-property: background-color,color,border-color;
-  color: #00000b;
-  background-color: #dddde0;
-  border: 0;
-}
-
-.btn-scroller:active, .btn-scroller:focus, .btn-scroller:hover {
-  color: #00000b;
-  background-color: #aaaab0;
-}
-
 .btn-pill {
 	border-radius: 30px;
 }
@@ -512,97 +249,11 @@
   background-color: $secondary !important;
 }
 
-// Footer
-
-.footer {
-	ul {
-		list-style: none;
-		font-weight: 600;
-		text-transform: capitalize;
-		margin-bottom: 2rem;
-		span {
-			display: block;
-			margin-bottom: 0.5em;
-		}
-		a {
-			color: rgba(255,255,255,0.5);
-			font-weight: 400;
-
-			&:hover {
-				color: $white;
-			}
-		}
-	}
-	&__social-media {
-		display: flex;
-		margin-top: 16px !important;
-		&-icon {
-			height: 40px;
-			width: 40px;
-			margin-right: 1rem;
-			margin-bottom: 1rem;
-			color: rgba(255,255,255,0.5);
-			&:hover {
-				color: $white;
-			}
-		}
-	}
-
-	&-extras{
-		ul {
-			li {
-				margin: 0 0.5rem;
-			}
-		}
-		&__logo img {
-			max-width: 180px;
-			height: auto;
-		}
-	}
-	.spacer {
-		content: " ";
-		height: 2rem;
-	}
-}
-
-#styleguide-nav {
-  background-color: $primary !important;
-	.nav-item:hover {
-		box-shadow: inset 0 -5px $white;
-	}
-	.nav-link {
-		color: $white;
-	}
-
-	.show {
-		.nav-item:hover {
-			box-shadow: 0 0;
-		}
-	}
-}
-
 .rb-link {
   color: var(--link) !important;
   &:hover {
     color: var(--link-hover) !important;
   }
-}
-
-.rb-paginate-active {
-  background-color: $primary !important;
-  color: $white !important;
-
-  &:hover {
-    background-color: $secondary !important;
-  }
-}
- 
-.pagination .page-link {
-	color: $gray-900;
-}
-
-.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-  background-color: $gray-300 !important;
 }
 
 .mark, mark {
@@ -628,6 +279,13 @@ img {
     position: absolute;
     right: 96px;
   }
+}
+
+// Dropdowns
+
+.dropdown-toggle {
+  background-color: var(--box) !important;
+  color: var(--text) !important;
 }
 
 .dropdown-menu {

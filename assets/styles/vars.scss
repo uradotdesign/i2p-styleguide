@@ -4,7 +4,7 @@ $warning: #FFC434;
 $danger: #E15647;
 $body-font: 'Inter', sans-serif !important;
 $header-font: 'Nunito', sans-serif !important;
-$border-radius: 5px;
+$border-radius: 4px;
 
 //  General
 
@@ -150,6 +150,63 @@ $red-600: map-get($red-list, "600");
 $red-700: map-get($red-list, "700");
 $red-800: map-get($red-list, "800");
 $red-900: map-get($red-list, "900");
+
+
+// Dynamic background and color classes creation
+
+@each $value in $gray-list {
+        .background-gray-#{nth($value, 1)} {
+          background-color: nth($value, 2) !important;
+        }
+        .color-gray-#{nth($value, 1)} {
+          color:nth($value, 2) !important;
+        }
+      }
+
+@each $value in $night-list {
+        .background-night-#{nth($value, 1)} {
+          background-color: nth($value, 2) !important;
+        }
+        .color-night-#{nth($value, 1)} {
+          color:nth($value, 2) !important;
+        }
+      }
+      
+@each $value in $indigo-list {
+        .background-indigo-#{nth($value, 1)} {
+          background-color: nth($value, 2) !important;
+        }
+        .color-indigo-#{nth($value, 1)} {
+          color:nth($value, 2) !important;
+        }
+      }
+      
+@each $value in $teal-list {
+        .background-teal-#{nth($value, 1)} {
+          background-color: nth($value, 2) !important;
+        }
+        .color-teal-#{nth($value, 1)} {
+          color:nth($value, 2) !important;
+        }
+      }
+      
+@each $value in $orange-list {
+        .background-orange-#{nth($value, 1)} {
+          background-color: nth($value, 2) !important;
+        }
+        .color-orange-#{nth($value, 1)} {
+          color:nth($value, 2) !important;
+        }
+      }
+
+@each $value in $red-list {
+        .background-red-#{nth($value, 1)} {
+          background-color: nth($value, 2) !important;
+        }
+        .color-red-#{nth($value, 1)} {
+          color:nth($value, 2) !important;
+        }
+      }
 
 // Mixins
 //
